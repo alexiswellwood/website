@@ -1,0 +1,12 @@
+---
+title: Measuring and comparing individuals and events
+date: 2012-05-02
+authors: Alexis Wellwood, Valentine Hacquard, and Roumyana Pancheva
+venue: <i>Journal of Semantics, 29(2)</i>
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/whp2012jos-preproof.pdf
+official: http://dx.doi.org/10.1093/jos/ffr006
+tags: semantics, comparatives, events
+---
+
+This squib investigates parallels between nominal and verbal comparatives. Building on key insights of Hackl (2000) and Bale & Barner (2009), we show that more behaves uniformly when it combines with nominal and verbal predicates: (i) it cannot combine with singular count NPs or perfective telic VPs; (ii) grammatical properties of the predicates determine the scale of comparison—plural marked NPs and habitual VPs are compared on a scale of cardinality, whereas mass NPs and perfective (atelic) VPs are (often) compared along non-cardinal, though monotonic, scales. Taken together, our findings confirm and strengthen parallels that have independently been drawn between the nominal and verbal domains. In addition, our discussion and data, drawn from English, Spanish, and Bulgarian, suggest that the semantic contribution of *more* can be given a uniform analysis. 
+

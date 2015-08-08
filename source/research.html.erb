@@ -1,0 +1,64 @@
+---
+title: research
+date: 2015-08-01
+author: alexis wellwood
+pageable: true
+per_page: 10
+blog: research
+---
+
+<h1 class="lowercase pageheader">publications </h1>
+
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+<% page_articles.each_with_index do |article, i| %>
+  <h3 class="lowercase"><%= article.data.title %> <span class="date"><%= article.date.strftime("%Y") %></h3>
+  <h5>by <%= article.data.authors %>; <%= article.data.venue %></h5>
+  <%= article.body %>
+  <!-- requires Nokogiri: -->
+  <!-- <%= article.summary(1000) %> <%= link_to 'Read more…', article %> --> 
+  <% article.tags.each do |tag| %>
+    <%= link_to tag, tag_path(tag) %> | 
+  <% end %>
+<% end %>
+
+<!--gets articles by date
+<ul>
+  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+    <li>
+      <h5><%= year %></h5>
+      <ul>
+        <% articles.each do |article| %>
+          <li><a href="<%= article.url %>" class="lowercase"><%= article.title %></a></li>
+        <% end %>
+      </ul>
+    </li>
+  <% end %>
+</ul>
+/gets articles by date-->
+
+<!-- gets articles by tags
+<ul>
+  <% blog.tags.each do |tag, articles| %>
+    <li>
+      <h5><%= tag %></h5>
+      <ul>
+        <% articles.each do |article| %>
+          <li><a href="<%= article.url %>" class="lowercase"><%= article.title %></a></li>
+        <% end %>
+      </ul>
+  <% end %>
+</ul>
+/gets articles by tags-->
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>

@@ -1,0 +1,12 @@
+---
+title: "Distributivity and modality: where <i>each</i> may go, <i>every</i> can't follow"
+authors: Michaël Gagnon and Alexis Wellwood
+date: 2011-06-01
+venue: <i>Proceedings of Semantics and Linguistic Theory 21</i>
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/gw2010cla.pdf
+official: http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2592
+pages: 39-55
+tags: semantics, syntax, modality, quantifiers
+---
+
+Von Fintel and Iatridou (2003) observed a striking pattern of scopal noninteraction between phrases headed by strong quantiﬁers like *every* and epistemically interpreted modal auxiliaries. Tancredi (2007) and Huitink (2008) observed that von Fintel and Iatridou's proposed constraint, the Epistemic Containment Principle (ECP), does not apply uniformly: it does not apply to strong quantiﬁers headed by *each*. We consider the ECP effect in light of the differential behavior of *each* and *every* in the environment of *wh-*, negative, and generic operators as described by Beghelli and Stowell (1997). Assuming that epistemic and root modals merge at two different syntactic heights (e.g. Cinque 1999) and that modals may act as unselective binders (Heim 1982), we extend Beghelli and Stowell's topological approach to quantiﬁer scope interactions in order to formulate a novel syntactic account of the ECP.

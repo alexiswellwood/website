@@ -1,0 +1,10 @@
+---
+title: "Linguistics 472: Semantics seminar (Events)"
+date: 2015-03-30
+term: Spring quarter
+institution: Northwestern University
+author: Alexis Wellwood
+blog: teaching
+---
+
+Linguists, psychologists, and philosophers love to talk about 'events.' What are they? Are they like or unlike 'objects'? Are they out there in the world, or merely ways we think about things in the world? In this course, we investigate the logic of the sentences we use to talk about events, and other potentially mysterious entities like 'states.'' We begin by considering the traditional semantics for sentences like 'Juliet kicked Romeo,' in which it expresses a relation between two entities. Next, we examine evidence that there is more structure to the logical form of such sentences, involving quantification over events. As the course goes on, we look at more phenomena that the event analysis has been recruited to explain, and the greater elaborations to logical form that these phenomena have been taken to suggest. Throughout, we consider the significance of the event analysis to the relation between language and mind.

@@ -1,0 +1,27 @@
+---
+title: "Back to basics: <i>more</i> is always <i>much-er</i>"
+date: 2012-09-01
+authors: Alexis Wellwood
+venue: <i>Proceedings of Sinn und Bedeutung 17</i>
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/w2012sub.pdf
+official: http://semanticsarchive.net/sub2012/Wellwood.pdf
+tags: semantics, comparatives, events
+---
+
+Bresnan (1973) posited that *more* is uniformly analyzed as *much-er*, whether it appears
+with adjectives (*more intelligent*, *redder*) or nouns (*more soup*).  On the earliest degree-semantic
+analysis of such constructions, *much*
+appears but is semantically inert: it serves to morphologically
+mark the presence of the degree argument which is introduced by adjectives and nouns (Cresswell
+1976). READMORE  I present an alternative analysis, one suggested by Cresswell himself: on this account, the
+degree argument is introduced by
+*much*.  I first show how the interpretation of this morpheme as
+a structure-preserving mapping to the domain of degrees is motivated by data from nominal and
+verbal comparatives,  and then how it extends to adjectival comparatives.  To accomplish this,  I
+argue that adjectives express predicates of states, and interact with degrees only in composition with
+*much*.   The  upshot is  a  theory in  which
+*much*
+universally  provides the  mapping  to degrees  for
+comparison by
+*more*, regardless of the syntactic category it combines with.
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= "wellwood " + current_page.data.title  %></title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- css -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../stylesheets/bootstrap-theme.css" rel="stylesheet">
+    <link href="../stylesheets/normalize.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+ <!--   <link href="../stylesheets/sticky-footer.css" rel="stylesheet"> -->
+    <%= stylesheet_link_tag 'main' %>
+
+    <!-- js -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../javascripts/bootstrap-theme.js"></script>
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar navbar-custom navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 class="project"><a href="#">alexis wellwood</a></h1>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-right navbar-nav">
+            <li><a href="/index.html">blog</a></li>
+            <li><a href="/research.html">publications</a></li>
+            <li><a href="/teaching.html">teaching</a></li>
+            <li><a href="http://faculty.wcas.northwestern.edu/wellwood/wellwood_cv.pdf">CV</a></li>
+            <li><a href="/contact.html">contact</a></li>
+            <li class="dropdown">
+              <a href="#outside">outside <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://childlab.northwestern.edu">
+                  <i class="fa fa-flask"></i> NU ChiLD lab</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://scholar.google.com/citations?user=kXaP_BgAAAAJ&hl=en">
+                  <i class="fa fa-google"></i> citations</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/alexiswellwood">
+                  <i class="fa fa-twitter"></i> @alexiswellwood</a>
+                </li> 
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://linguistics.stackexchange.com/users/178/alexis-wellwood">
+                  <i class="fa fa-stack-exchange"></i> ling.stackExchange</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://delicious.com/luxolic">
+                  <i class="fa fa-delicious"></i> bookmarks</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse-->
+      </div>
+    </div><!--/.navbar-static-top-->
+    <!--/.navbar--> 
+
+    <!--main content-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" style="padding-top:18px;">
+          <div><a href="/blog/" class="logo"><img src="/images/me_L.png" width="100%" alt="alexis singing" /></a></div>
+          <div class="meta">
+            <p>I am Assistant Professor of <a href="http://linguistics.northwestern.edu/">Linguistics</a> at <a href="http://northwestern.edu">Northwestern University</a>, specializing in semantics.</p>
+            <p>I also direct the <a href="http://childlab.northwestern.edu">Child Language Development Laboratory</a>, which tries to understand what kids think about word and sentence meaning. </p>
+          </div>
+        </div><!--/col-md-3-->
+
+        <!-- site content -->
+        <div class="col-md-9">
+            <%= yield %>
+        </div>
+            
+        <!-- footer -->
+        <div class="footer pull-right" style="padding-top:40px;">
+          <p class="text-muted">&copy; 2015 alexis wellwood</p>
+        </div><!-- /footer -->
+      </div><!--/site content-->
+    </div><!--/main content-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>

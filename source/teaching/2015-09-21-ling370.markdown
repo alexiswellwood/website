@@ -1,0 +1,9 @@
+---
+title: "Linguistics 370: Fundamentals of Meaning"
+date: 2015-09-21
+term: Fall quarter
+institution: Northwestern University
+author: Alexis Wellwood
+blog: teaching
+---
+

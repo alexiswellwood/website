@@ -1,0 +1,40 @@
+---
+title: Measuring Predicates
+date: 2014-08-01
+authors: Alexis Wellwood
+venue: University of Maryland linguistics dissertation
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/w2014diss.pdf
+official: http://link.springer.com/article/10.1007/s10988-015-9165-0
+tags: semantics, comparatives, events
+---
+
+Determining  the  semantic  content  of  sentences,  and  uncovering  regularities
+between linguistic form and meaning, requires attending to both morphological and
+syntactic properties of a language with an eye to the notional categories that the
+various pieces of form express. In this dissertation, I investigate the morphosyntactic
+devices that English speakers (and speakers of other languages) can use to talk about
+comparisons between things:  comparative sentences with, in English,
+*more... than*, *as...   as*, *too*, *enough*, 
+  and  others.   I  argue  that  a  core  component  of  all  of  these
+constructions is a unitary element expressing the concept of measurement. READMORE 
+
+The theory that I develop departs from the standard degree-theoretic analysis
+of the semantics of comparatives in three crucial respects:  First, gradable adjectives
+do  not  (partially  or  wholly)  denote  measure  functions;  second,  degrees  are  introduced compositionally; and three, the introduction of degrees arises uniformly from
+the semantics of the expression *much*.  These ideas mark a return to the classic morphosyntactic analysis of comparatives found in Bresnan (1973), while incorporating
+and extending semantic insights of Schwarzschild (2002, 2006).  Of major interest
+is how the dimensions for comparison observed across the panoply of comparative
+constructions vary,  and these are analyzed as a consequence of what is measured
+(individuals, events, states, etc.), rather than which expressions invoke the measurement.
+
+This shift in perspective leads to the observation of a number of regularities
+in  the  mapping  between  form  and  meaning  that  could  not  otherwise  have  been
+seen.  First, the notion of measurement expressed across comparative constructions
+is familiar from some explications of that concept in measurement theory (e.g. Berka
+1983).   Second,  the  distinction  between  gradable  and  non-gradable  adjectives  is
+formally on a par with that between mass and count nouns, and between atelic and
+telic verb phrases.  Third, comparatives are perceived to be acceptable if the domain
+for measurement is structured, and to be anamolous otherwise.  Finally, elaborations
+of grammatical form reflexively affect which dimensions for comparison are available
+to interpretation.
+

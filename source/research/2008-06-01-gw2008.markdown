@@ -1,0 +1,20 @@
+---
+title: Interrogative structures in Marshallese
+authors: Michaël Gagnon and Alexis Wellwood
+date: 2008-06-01
+venue: <i>Proceedings of the Canadian Linguistics Association annual meeting</i>
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/gw2008.pdf
+tags: syntax, questions, cross-linguistic
+---
+
+Marshallese, an Oceanic language spoken on the atolls of the
+Marshall Islands,
+has a question particle,
+*ke*, which may appear in one of a number of positions in
+*yes/no* interrogatives. READMORE Interestingly, the availability of certain positions depends
+upon whether the sentential context is affirmative or negative. We evaluate Willson (2005)’s remnant movem
+ent analysis
+of the distribution of *ke*, and formulate a novel approach to the problem where
+*yes/no* interrogatives in Marshallese are built on a core cle
+ft construction, and *ke*
+is generated in the middlefield of the matrix clause.

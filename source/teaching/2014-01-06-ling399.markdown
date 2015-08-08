@@ -1,0 +1,10 @@
+---
+title: "Linguistics 399: Independent Study (Negation)"
+date: 2014-01-06
+term: Winter quarter
+institution: Northwestern University
+author: Alexis Wellwood
+blog: teaching
+---
+
+Investigating syntactic, semantic, and pragmatic approaches to negation, in particular as these approaches bear on the interpretation of antonymy (*tall* versus *short*) and positive/negative comparatives (*shorter*, *less tall*).

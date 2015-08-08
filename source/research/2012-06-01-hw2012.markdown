@@ -1,0 +1,21 @@
+---
+title: "Embedding epistemic modals in English: A corpus-based study"
+authors: Valentine Hacquard and Alexis Wellwood
+date: 2012-06-01
+venue: <i>Semantics and Pragmatics, 5(4)</i>
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/hw2012s&p-preproof.pdf
+official: http://dx.doi.org/10.3765/sp.5.4
+pages: 1-29
+tags: semantics, modality, questions, corpus
+---
+
+The question of whether epistemic modals contribute to the truth conditions of the sentences they appear in is a matter of active debate in the literature.
+Fueling this debate is the lack of consensus about the extent to which epistemics can
+appear in the scope of other operators. This corpus study investigates the distribution
+of epistemics in naturalistic data. Our results indicate that they do embed, supporting the view that they contribute semantic content. However, their distribution is
+limited, compared to that of other modals. This limited distribution seems to call for
+a nuanced account: while epistemics are semantically contentful, they may require
+special licensing conditions.
+
+
+**Additional material**: [Expanded Karttunen classification of question-embedding attitudes](http://faculty.wcas.northwestern.edu/wellwood/downloadables/hw2012appendix.pdf)

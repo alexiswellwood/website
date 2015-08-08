@@ -4,7 +4,6 @@ date: 2014-08-01
 authors: Alexis Wellwood
 venue: University of Maryland linguistics dissertation
 local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/w2014diss.pdf
-official: http://link.springer.com/article/10.1007/s10988-015-9165-0
 tags: semantics, comparatives, events
 ---
 

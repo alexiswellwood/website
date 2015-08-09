@@ -1,0 +1,9 @@
+<% content_for :page_title do %>
+Blog
+<% end %>
+<% wrap_layout :layout do %>
+
+    <h3 class="lowercase"><%= current_page.data.title %> <span class="date"><%= current_page.date.strftime("%m.%e.%Y") %></span></h3>
+    <%= yield %>
+
+<% end %>

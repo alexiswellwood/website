@@ -23,8 +23,8 @@ blog: research
   <%= article.body %>
   <!-- requires Nokogiri: -->
   <!-- <%= article.summary(1000) %> <%= link_to 'Read more…', article %> --> 
-  <% article.tags.each do |tag| %>
-    <%= link_to tag, tag_path(tag) %> | 
+  <% article.tags.each_with_index do |tag, j| %>
+    <%= link_to tag, tag_path(tag) %> <%= '|' if j < (article.tags.size - 1) %>
   <% end %>
 <% end %>
 

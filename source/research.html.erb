@@ -18,7 +18,16 @@ blog: research
 <% end %>
 
 <% page_articles.each_with_index do |article, i| %>
-  <h3 class="lowercase"><%= article.data.title %> <span class="date"><%= article.date.strftime("%Y") %></h3>
+  <h3 class="lowercase"><%= article.data.title %> <span class="date"><%= article.date.strftime("%Y") %>
+  <span class="article-links">
+    <% if article.data.local %>
+      <span><%= link_to '<i class="fa fa-file-pdf-o"></i>'.html_safe, article.data.local %></span>
+    <% end %>
+    <% if article.data.official %>
+      <span><%= link_to '<i class="fa fa-external-link"></i>'.html_safe, article.data.official %></span>
+    <% end %>
+  </span>
+  </h3>
   <h5>by <%= article.data.authors %>; <%= article.data.venue %></h5>
   <%= article.body %>
   <!-- requires Nokogiri: -->

@@ -122,3 +122,11 @@ i.fa {
   font-family: 'FontAwesome';
   font-style: normal;
 }
+
+span.article-links {
+  float: right;
+}
+
+span.article-links span {
+  padding-left: 0.25em;
+}

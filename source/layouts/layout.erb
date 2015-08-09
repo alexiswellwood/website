@@ -12,6 +12,7 @@
     <link href="../stylesheets/bootstrap-theme.css" rel="stylesheet">
     <link href="../stylesheets/normalize.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../stylesheets/sticky-footer.css" rel="stylesheet">
  <!--   <link href="../stylesheets/sticky-footer.css" rel="stylesheet"> -->
     <%= stylesheet_link_tag 'main' %>
 
@@ -86,12 +87,15 @@
             <%= yield %>
         </div>
             
-        <!-- footer -->
-        <div class="footer pull-right" style="padding-top:40px;">
-          <p class="text-muted">&copy; 2015 alexis wellwood</p>
-        </div><!-- /footer -->
       </div><!--/site content-->
     </div><!--/main content-->
+
+    <!-- footer -->
+    <div class="footer pull-right" style="padding-top:40px;">
+      <div class="container">
+        <p class="text-muted">&copy; 2015 alexis wellwood</p>
+      </div>
+    </div><!-- /footer -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

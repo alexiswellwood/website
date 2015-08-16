@@ -3,8 +3,8 @@ title: On the semantics of comparison across categories
 date: 2015-03-01
 authors: Alexis Wellwood
 venue: <i>Linguistics & Philosophy, 38(1)</i>
-offprint: http://faculty.wcas.northwestern.edu/wellwood/downloadables/w2015l&p_preproof.pdf
-DOI: http://link.springer.com/article/10.1007/s10988-015-9165-0
+local: /downloadables/w2015l&p_preproof.pdf
+official: http://link.springer.com/article/10.1007/s10988-015-9165-0
 pages: 67-101
 tags: semantics, comparatives, events
 ---

@@ -3,7 +3,7 @@ title: The typology of distributivity and epistemic containment phenomena
 authors: Michaël Gagnon, Alexis Wellwood
 date: 2010-06-01
 venue: <i> Proceedings of the Canadian Linguistics Association annual meeting</i>
-local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/gw2010cla.pdf
+local: /downloadables/gw2010cla.pdf
 tags: semantics, syntax, modality, quantifiers
 ---
 

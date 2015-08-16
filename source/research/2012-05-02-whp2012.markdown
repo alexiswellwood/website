@@ -3,7 +3,7 @@ title: Measuring and comparing individuals and events
 date: 2012-05-02
 authors: Alexis Wellwood, Valentine Hacquard, and Roumyana Pancheva
 venue: <i>Journal of Semantics, 29(2)</i>
-local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/whp2012jos-preproof.pdf
+local: /downloadables/whp2012jos-preproof.pdf
 official: http://dx.doi.org/10.1093/jos/ffr006
 tags: semantics, comparatives, events
 ---

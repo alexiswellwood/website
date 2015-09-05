@@ -1,8 +1,8 @@
 ---
-title: hello world
+title: Hello World
 date: 2015-08-01
 tags: hello-world, latex, web-design
-author: alexis wellwood
+author: Alexis Wellwood
 ---
 
 This is my first post, and my first blog, on my brand new website. I made this site using [Middleman](https://middlemanapp.com/) and [Bootstrap](http://getbootstrap.com/). Middleman makes it easier to flexibly build static sites, and Bootstrap helps make them beautiful---on any device. The code for the site is on my [Github](https://github.com/alexiswellwood), though it (and its documentation) is still very much a work in progress.

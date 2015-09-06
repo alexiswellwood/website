@@ -66,11 +66,15 @@ h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
 
 .navbar .nav li.dropdown ul li a {
   text-align: left;
-  color: #00c900;
+  color: white;
 }
 
 .navbar .navbar-header button span {
   background-color: white;
+}
+
+.dropdown-menu {
+  background: #00dd00;
 }
 
 .navbar .nav li.dropdown ul li a:hover {
@@ -80,6 +84,7 @@ h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+    background: #00dd00;
     margin-top: 0; // remove the gap so it doesn't close
  }
 

@@ -65,7 +65,10 @@ h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
   line-height: 35px;
 }
 
-.navbar .nav li a:hover {
+.navbar .nav li a:hover,
+.navbar .nav li.open > a,
+.navbar .nav li.open > a:focus,
+.navbar .nav li.open > a:hover {
   color: rgba(255, 255, 255, 1);
   background: #00c900;
 }

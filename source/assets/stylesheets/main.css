@@ -52,11 +52,17 @@ h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
   border-style: none;
 }
 
+.navbar .nav li {
+  padding-top: 10px 0;
+  padding-bottom: 10px 0;
+}
+
 .navbar .nav li a {
   text-align: center;
   color: rgba(255, 255, 255, 1);
   -webkit-text-shadow: none;
   text-shadow: none;
+  line-height: 35px;
 }
 
 .navbar .nav li a:hover {
@@ -83,10 +89,10 @@ h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
-    background: #00dd00;
-    margin-top: 0; // remove the gap so it doesn't close
- }
+  display: block;
+  background: #00dd00;
+  margin-top: 0; // remove the gap so it doesn't close
+}
 
 .pageheader {
   color: #005400;

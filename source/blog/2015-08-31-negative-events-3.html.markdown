@@ -3,7 +3,6 @@ title: Negative events (Part 3)
 date: 2015-08-31
 tags: events, negation, scope-ambiguity
 author: Alexis Wellwood
-published: false
 ---
 
 [Barry Schein](http://www-bcf.usc.edu/~schein/) recently argued for an analysis of negative clauses that bears some resemblance to Varzi's, but which is nevertheless quite distinct. (Read it: [Noughty bits: the subatomic scope of negation](http://www-bcf.usc.edu/%7Eschein/NoughtyBits.pdf).) Schein's analysis shares the invocation of actual, as opposed to negative, events, but not to ones as simple as stayings (or non-leavings): Schein's events "frame" a region of time and space, and negative descriptions tell us **what didn't happen there**. 

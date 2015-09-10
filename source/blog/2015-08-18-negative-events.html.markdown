@@ -3,7 +3,6 @@ title: Negative events (Part 1)
 date: 2015-08-18
 tags: events, negation, scope-ambiguity
 author: Alexis Wellwood
-published: false
 ---
 
 In 2012, I chaired organization of the University of Maryland's inaugural PHLINC (**PH**ilosophy and **L**inguistics **C**olloquium), on the topic of [//events//](http://phling.umd.edu/symposia/phlinc1.html). One of the invited speakers (along with [Paul Pietroski](http://terpconnect.umd.edu/~pietro/)) was the philosopher [Achille Varzi](http://www.columbia.edu/~av72/). He discussed the topic of "negative events", in particular, the question of whether there were any such **things** (a positive answer to this question is attributed to the linguist [Henriette de Swart](http://www.uu.nl/hum/staff/HEdeSwart), in her 1996 *Journal of Semantics* paper [on the semantics of *not...until*](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.127.1227&rep=rep1&type=pdf)). 

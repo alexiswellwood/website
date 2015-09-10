@@ -121,3 +121,17 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :deploy do |deploy|
+  deploy.method          = :rsync
+  deploy.build_before    = true
+  deploy.host            = 'alexiswellwood.org'
+  deploy.port            = 22
+  deploy.path            = '/home/alexiswellwood/alexiswellwood.org'
+  # deploy.flags           = "-avze 'ssh'"
+  # Optional Settings
+  # deploy.user     = 'tvaughan' # no default
+  # deploy.password = 'secret' # no default
+end
+
+

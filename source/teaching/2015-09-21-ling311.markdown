@@ -7,3 +7,4 @@ author: Alexis Wellwood
 blog: teaching
 ---
 
+This course investigates central problems in first language acquisition, with an emphasis on how children acquire knowledge of syntax and semantics. The fundamental topics that we will cover include: the poverty of the stimulus, the roles of input and intake, and inferences from data to grammar. Along the way, we will become familiar with a variety of analytic and behavioral methods deployed by developmental linguists. By engaging with primary research, students will learn how to define a learning problem surrounding a linguistic phenomenon, to identify the potential roles of prior grammatical knowledge and experience in learning the grammar of that phenomenon, how to identify potential extralinguistic contributions or barriers to acquisition, and to design an experiment to test children’s knowledge.

@@ -2,23 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title><%= "wellwood " + current_page.data.title  %></title> 
+    <title><%= "wellwood " + current_page.data.title.to_s  %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="" />
     <meta name="author" content="" />
 
     <!-- css -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../stylesheets/bootstrap-theme.css" rel="stylesheet">
-    <link href="../stylesheets/normalize.css" rel="stylesheet">
+    <%= stylesheet_link_tag 'bootstrap-theme' %>
+    <%= stylesheet_link_tag 'normalize' %>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../stylesheets/sticky-footer.css" rel="stylesheet">
+    <%= stylesheet_link_tag 'sticky-footer' %>
     <%= stylesheet_link_tag 'main' %>
 
     <!-- js -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../javascripts/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="../javascripts/bootstrap-theme.js"></script>
+    <%= javascript_include_tag 'jquery-2.1.4.min' %>
+    <%= javascript_include_tag 'bootstrap-theme' %>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
@@ -42,11 +42,11 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-right navbar-nav">
-            <li><a href="/index.html">blog</a></li>
-            <li><a href="/research.html">publications</a></li>
-            <li><a href="/teaching.html">teaching</a></li>
-            <li><a href="/downloadables/wellwood_cv.pdf">CV</a></li>
-            <li><a href="/contact.html">contact</a></li>
+            <li><%= link_to 'blog', '/index.html' %></li>
+            <li><%= link_to 'publications', '/research.html' %></li>
+            <li><%= link_to 'teaching', '/teaching.html' %></li>
+            <li><%= link_to 'CV', '/downloadables/wellwood_cv.pdf' %></li>
+            <li><%= link_to 'contact', '/contact.html' %></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">outside <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
@@ -80,7 +80,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3" style="padding-top:18px;">
-          <div><a href="/blog/" class="logo"><img src="/images/me_L.png" width="100%" alt="alexis singing" /></a></div>
+          <div><a href="/blog/" class="logo"><%= image_tag "me_L.png", :width => "100%", :alt => "alexis singing" %></a></div>
           <div class="meta">
             <p>I am an Assistant Professor of <a href="http://linguistics.northwestern.edu/">Linguistics</a> at <a href="http://northwestern.edu">Northwestern University</a>, specializing in semantics.</p>
             <!-- <p>I direct the <a href="http://childlab.northwestern.edu">Child Language Development Laboratory</a>, investigating what kids think about word and sentence meaning. </p> -->
@@ -106,7 +106,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="/assets/javascripts/bootstrap.min.js"></script>
+    <%= javascript_include_tag 'bootstrap.min' %>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
   </body>

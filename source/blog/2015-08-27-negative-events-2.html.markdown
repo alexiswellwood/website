@@ -3,7 +3,6 @@ title: Negative events (Part 2)
 date: 2015-08-27
 tags: events, negation, scope-ambiguity
 author: Alexis Wellwood
-published: false
 ---
 
 In the spring quarter of this year, I taught a graduate-level seminar on event semantics. A curious thing I noticed in that class was that the students were, at first, extremely unwilling to negate the event quantifier. 

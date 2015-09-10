@@ -6,12 +6,12 @@
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  blog.prefix = "blog"
+  # blog.prefix = "blog"
   blog.name = "blog"
 
   blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.sources = "blog/{year}-{month}-{day}-{title}.html"
   blog.taglink = "tags/{tag}.html"
   blog.layout = "post"
   # blog.summary_separator = /(READMORE)/
@@ -49,7 +49,7 @@ activate :blog do |blog|
   blog.calendar_template = "calendar.html"
 end
 
-
+activate :syntax
 
 ###
 # Compass
@@ -102,7 +102,7 @@ set :css_dir, '/assets/stylesheets'
 
 set :js_dir, '/assets/javascripts'
 
-set :images_dir, '/assets/images'
+set :images_dir, '/images'
 
 # Build-specific configuration
 configure :build do

@@ -8,22 +8,11 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
   blog.name = "blog"
-
   blog.permalink = "{year}/{month}/{day}/{title}.html"
-  # Matcher for blog source files
-  # blog.sources = "blog/{year}-{month}-{day}-{title}.html"
   blog.taglink = "tags/{tag}.html"
   blog.layout = "post"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = "{year}.html"
-  # blog.month_link = "{year}/{month}.html"
-  # blog.day_link = "{year}/{month}/{day}.html"
-  # blog.default_extension = ".markdown"
-
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
-
   # Enable pagination
   # blog.paginate = true
   # blog.per_page = 10
@@ -37,7 +26,6 @@ activate :blog do |blog|
   blog.name = "research"
   blog.permalink = "{year}/{title}.html"
   blog.taglink = "tags/{tag}.html"
-  # blog.summary_separator = /(READMORE)/
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 end
@@ -104,6 +92,8 @@ set :js_dir, '/assets/javascripts'
 
 set :images_dir, '/images'
 
+set :relative_links, true
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -116,21 +106,23 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
 
 activate :deploy do |deploy|
-  deploy.method          = :rsync
+  deploy.method          = :sftp
   deploy.build_before    = true
-  deploy.host            = 'alexiswellwood.org'
+#  deploy.host            = 'alexiswellwood.org' 
+  deploy.host            = 'faculty.wcas.northwestern.edu' 
   deploy.port            = 22
-  deploy.path            = '/home/alexiswellwood/alexiswellwood.org'
+#  deploy.path            = '/home/alexiswellwood/alexiswellwood.org'
+  deploy.path            = '/home/faculty/acw346/public_html'
   # deploy.flags           = "-avze 'ssh'"
   # Optional Settings
-  # deploy.user     = 'tvaughan' # no default
+  # deploy.user     = 'acw346' 
   # deploy.password = 'secret' # no default
 end
 

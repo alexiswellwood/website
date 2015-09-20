@@ -18,7 +18,12 @@ blog: teaching
 <% end %>
 
 <% page_articles.each_with_index do |article, i| %>
-  <h3 class="lowercase"><%= article.data.title %> <span class="date"><%= article.data.term %> <%= article.date.strftime("%Y") %></h3>
+  <h3 class="lowercase"><%= article.data.title %> <span class="date"><%= article.data.term %> <%= article.date.strftime("%Y") %>
+    <% if article.data.classpage %>
+    <span><%= link_to '<i class="fa fa-book"></i>'.html_safe, article.data.classpage %></span>
+    <% end %>
+  </span>
+  </h3>
   <h5><%= article.data.institution %></h5>
   <%= article.body %>
 <% end %>

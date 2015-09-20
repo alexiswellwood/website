@@ -3,6 +3,7 @@ title: "Linguistics 311: Child Language"
 date: 2015-09-21
 term: Fall quarter
 institution: Northwestern University
+classpage: /classes/ling311.html
 author: Alexis Wellwood
 blog: teaching
 ---

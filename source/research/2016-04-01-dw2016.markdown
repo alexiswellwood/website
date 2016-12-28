@@ -1,0 +1,13 @@
+---
+title: "Addressing the two interface problem: Comparatives and superlatives"
+date: 2016-04-01
+authors: Ewan Dunbar, Alexis Wellwood
+venue: <i>Glossa</i> [open access]
+official: http://dx.doi.org/10.5334/gjgl.9
+tags: morphology, semantics, comparatives, superlatives
+---
+
+How much meaning can a morpheme have? Syntactic and morphological analyses generally underdetermine when distinctions in meaning between two forms are due to (i) the presence of an additional syntactic head or to (ii) different information coded on the same head. Surveying patterns across hundreds of languages, Bobaljik (2012) hypothesizes that superlative forms universally consist of a comparative morpheme plus an additional superlative morpheme, e.g., *tallest* is underlyingly <small>[ SUP [ CMPR [ TALL ] ] ]</small>. Bobaljik's hypothesis includes, in part, a speculative proposal for a universal limit on the semantic complexity of morphemes. We offer a concrete basis for this proposal, the 'No Containment Condition' (NCC). The NCC is a constraint on grammars such that they cannot contain a certain semantic representation for a unitary head, if that representation can be constructed out of the semantic representations of two heads. Illustrating the proposal, we take Bobaljik's analysis of forms like *tallest* further, into <small>[ [ [ CMPR SUP ] MUCH ] TALL ]</small>. Based in semantic analysis, our suggestion introduces Bresnan's (1973) classical analysis of comparatives into the decomposition of superlatives.
+
+
+

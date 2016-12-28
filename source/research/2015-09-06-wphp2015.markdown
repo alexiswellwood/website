@@ -2,11 +2,11 @@
 title: The anatomy of a comparative illusion
 date: 2015-09-06
 authors: Alexis Wellwood, Roumyana Pancheva, Valentine Hacquard, and Colin Phillips
-venue: submitted
+venue: in revision
 local: /downloadables/wphp2015submitted.pdf
 tags: psycholinguistics, semantics, comparatives, events
 ---
 
 Comparative constructions like <i>More people have been to Russia than I have</i> are generally perceived as acceptable and meaningful by native speakers of English; yet, upon closer reflection, they are judged to be incoherent. This mismatch between initial perception and more considered judgment challenges the idea that we perceive sentences veridically, and interpret them fully; it is thus potentially revealing about the relationship between grammar and language processing. This paper presents the first detailed investigation of these so-called 'comparative illusions'. We test four hypotheses about their source: a shallow syntactic parser, some type of repair by ellipsis, an incorrectly-resolved lexical ambiguity, or a persistent event comparison interpretation. A series of four formal acceptability studies show that speakers are most prone to the illusion when the comparative supports an event comparison reading. A verbatim recall task tests and finds evidence for such construals in speakers' recollections of the sentences. Our results suggest that speakers entertain an interpretation that is initially consistent with the sentence, but fail to notice when this interpretation becomes unavailable at the <i>than</i>-clause. We conclude that, rather than illustrating processing in the absence of grammatical analysis, comparative illusions underscore the importance of syntactic and semantic rules in sentence processing.
 
-
+**Supplemental material**: [Stimuli used for acceptability judgments, experiment 1](http://faculty.wcas.northwestern.edu/wellwood/downloadables/wphp2016accept-sentences.csv), [Stimuli used in sentence recall, experiment3](http://faculty.wcas.northwestern.edu/wellwood/downloadables/wphp2016recall-sentences.csv), [Summary report of preliminary experiments](http://faculty.wcas.northwestern.edu/wellwood/downloadables/wphp2016supplement.pdf)

@@ -1,8 +1,0 @@
----
-title: "Linguistics 270: Meaning"
-date: 2016-09-21
-term: Spring quarter
-institution: Northwestern University
-author: Alexis Wellwood
-blog: teaching
----

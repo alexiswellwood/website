@@ -1,0 +1,11 @@
+---
+title: "Linguistics 300: Experimental semantics"
+date: 2016-09-17
+term: Fall quarter
+institution: Northwestern University
+author: Alexis Wellwood
+classpage: /classes/ling300.html
+blog: teaching
+---
+
+Research falling under the heading 'experimental semantics' comes in two important varieties: (i) research designed to test the predictions of truth-conditional theories (this is most often what's meant by "experimental semantics"), and (ii) research designed to explore finer-grained aspects of meaning, in particular the relationship between meaning and non-linguistic cognition (I've heard this called "psychosemantics", but we need a better name). These two categories of research have importantly different scope, limits, and methods, but (at least in terms of the research we will cover) both are strongly intertwined with the tradition of compositional formal semantics. In this course, we will develop an understanding of the state of contemporary experimental research in meaning through readings, lecture, and discussion. Specific topics to be covered include presupposition, the mass/count distinction, plurality, event semantics, quantification, numerals, and presupposition.

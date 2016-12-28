@@ -1,0 +1,10 @@
+---
+title: "Linguistics 499: independent study (argument structure)"
+date: 2016-03-27
+term: Spring quarter
+institution: Northwestern University
+author: Alexis Wellwood
+blog: teaching
+---
+
+Investigating the relationship between lexicon, syntax, and semantics in linguistic theories of argument structure.

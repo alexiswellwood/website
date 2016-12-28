@@ -1,0 +1,11 @@
+---
+title: "Linguistics 311: Child Language"
+date: 2015-09-19
+term: Fall quarter
+institution: Northwestern University
+classpage: /classes/ling311.html
+author: Alexis Wellwood
+blog: teaching
+---
+
+This course investigates first language acquisition, with an emphasis on how children acquire knowledge of syntax and semantics. We discuss the poverty of the stimulus, the roles of input and intake, and how children infer grammatical properties from data. Along the way, we become familiar with a variety of analytic and behavioral methods deployed by developmental linguists. Students will learn how to define a learning problem surrounding a linguistic phenomenon, to identify the potential roles of prior grammatical knowledge and experience in learning the grammar of that phenomenon, how to identify potential extralinguistic contributions or barriers to acquisition, and to design an experiment to test children’s knowledge. 

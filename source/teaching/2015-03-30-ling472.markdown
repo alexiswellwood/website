@@ -1,5 +1,5 @@
 ---
-title: "Linguistics 472: Semantics seminar (Events)"
+title: "Linguistics 472: Seminar on Event Semantics"
 date: 2015-03-30
 term: Spring quarter
 institution: Northwestern University

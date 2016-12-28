@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>311: Introduction</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+     body {
+        font-family: 'Droid Serif';
+      }
+      a { 
+        color: #fa0000;
+      }
+      .image-80 img {
+        width: 80%;
+      }
+      .image-90 img {
+        width: 90%;
+      }
+      .green {
+        color:#00dd00;
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+       .table {
+        padding-top: 10px;
+        valign: top;
+       }
+       .table td {
+        padding: 10px;
+       }
+       .top {
+        vertical-align: top;
+       }
+    </style>
+    <!-- jsfiddle to preload and not have youtube vid start playing http://jsfiddle.net/TxaHE/1/ 
+    <script>
+    var params = { allowScriptAccess: "always" };
+    var atts = { id: "player1" };
+    swfobject.embedSWF("http://www.youtube.com/v/wSqdIXPnf-I?enablejsapi=1&playerapiid=player1&version=3",
+           "player1-container", "425", "356", "8", null, null, params, atts);
+
+    function onYouTubePlayerReady(id) {
+        alert('Ready: ' + id);
+        var player1 = document.getElementById('player1');
+        player1.playVideo();
+        player1.addEventListener("onStateChange", "onytplayerStateChange");
+      }
+
+    function onytplayerStateChange(newState) {
+      alert("Player's new state: " + newState);
+      if(newState == 3)
+        {
+          player1.pauseVideo()
+        }
+      }
+  </script> -->
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# LING 311: Child Language
+
+### Instructor: Alexis Wellwood
+
+ 
+---
+# Agenda
+
+0. Course overview
+1. Who communicates, and how?
+2. What's special about language?
+3. Is it hard to acquire?
+4. Why bother? 
+
+---
+# Agenda
+
+0. .red[Course overview]
+1. Who communicates, and how?
+2. What's special about language?
+3. Is it hard to acquire?
+4. Why bother? 
+
+---
+# Who communicates, and how?
+
+.red[Humans] can communicate information in all sorts of ways:
+
+   - Verbal/sign language
+   - Written language
+   - Body "language"
+   - Facial expression
+   - Emoji
+   - Text message
+   - Etc.
+
+???
+
+In this class, we'll be focusing on...
+
+---
+# Who communicates, and how?
+
+Humans can communicate information in all sorts of ways:
+
+   - .red[Verbal/sign language]
+   - Written language
+   - Body "language"
+   - Facial expression
+   - Emoji
+   - Text message
+   - Etc.
+
+???
+
+Human communication through language, what SORT of ability it is, who has it, and how they GET it. 
+
+What's the first thing we can observe about this ability?
+
+---
+class: center, middle
+
+# "SNAKE!"
+
+.image-80[![Big snake](images/Black-Snake-White-Background-Images.jpg)]
+
+???
+
+If you see something, like a gigantic snake, you can SAY something informative about what you see—THAT it's a snake.
+
+What might you do if you heard someone shout SNAKE in a room like this?
+
+---
+# Vervet monkeys can do that.red[*]  
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/KRVxqCo9iW8?start=29&end=43&rel=0"
+frameborder="0" allowFullScreen></iframe>
+
+.footnote[.red[*] 0:29-0:43, https://youtu.be/KRVxqCo9iW8 ]
+
+???
+
+This particular ability is not, so far, very special.
+
+And you can see what they're doing, standing up on their hind legs and looking around, checking out where the snake might be. But what EVIDENCE do we have that this behavior is a consequence of this call, and not something else?
+
+Further reading on "the semantics of vervet monkey calls": http://primatology.net/2011/03/09/the-semantics-of-vervet-monkey-alarm-calls-part-i/
+
+
+---
+# "EAGLE!".red[*]
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/KRVxqCo9iW8?start=52&end=65&rel=0"
+frameborder="0" allowFullScreen></iframe>
+
+.footnote[.red[*] 0:52-1:05, https://youtu.be/KRVxqCo9iW8 ]
+
+???
+
+We can see that with this call, the behavior of the monkeys is different.
+
+These monkeys are COMMUNICATING: if one sounds an alarm of a particular sort, the rest react appropriate to the danger being signaled. 
+
+---
+class: center, middle
+
+### "There's a snake two feet away from you on your left side!" 
+
+.image-80[![Big snake](images/Black-Snake-White-Background-Images.jpg)]
+
+???
+
+One thing that seems to differentiate human language from what the vervet monkeys are doing, is the level of SPECIFICITY to our speech. We don't just have the word "snake", we can say something about exactly where the snake is. 
+
+But lest we think that this ability is unique in PRINCIPLE, consider---
+
+---
+# Honeybees.red[*]
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/-7ijI-g4jHg?start=0&end=50&rel=0"
+frameborder="0" allowFullScreen></iframe>
+
+.footnote[.red[*] 0:00-0:50, https://youtu.be/KRVxqCo9iW8 ]
+
+???
+
+The honeybees' waggle dance.
+
+There is much more to the bee's dance that this clip doesn't tell you about. 
+
+
+More bees: http://www.pbs.org/wgbh/nova/bees/dances.html, https://www.youtube.com/watch?v=bFDGPgXtK-U, http://www.youtube.com/watch?v=4NtegAOQpSs
+
+See also: 
+- Prairie dogs (size, shape, speed, and type of predator; with humans, apparently even something about how they're dressed!)
+- Dolphins - whistles to indicate their name, age, gender
+
+
+---
+# *Tanzsprache* ('Dance language').red[*]
+
+.image-90[![Bee dances](images/vonfrisch.jpg)]
+
+.footnote[.red[*] http://www.animalbehavioronline.com/frisch.html ]
+
+???
+
+The bee can choose different dances depending on the distance (up to 50 meters is the circle dance), the vigorousness of the dance indicates the RICHNESS of the food source, and so on. 
+
+What questions might you have about this ability that the bee has?
+
+Example: How is it acquired? Did the bee LEARN to do this dance?
+
+Ethologist and Nobel laureate Karl von Frisch (Austrian biologist) famous work on the bee dance.
+
+---
+# Noam Chomsky.red[*]
+
+### "At least three theoretical issues cross-cut the debate on language evolution. .red[One of the oldest problems among theorists is the 'shared versus unique' distinction]. Most current commentators agree that, although bees dance, birds sing, and chimpanzees grunt, .red[these systems of communication differ qualitatively] from human language. In particular, animal communication systems lack the rich expressive and open-ended power of human language..."
+
+.footnote[.red[*] Actually, Hauser, Chomsky, and Fitch 2002, "The Faculty of Language: <br />What Is It, Who Has It, and How Did It Evolve?", <i>Science</i>'s Compass.]
+
+???
+
+So what's special about human language, if anything? 
+
+Much of this introductory lecture will be to give you a "feel" for this "qualitative difference" between the kinds of communications we see in the animal kingdom, and what we see with human language.
+
+
+---
+# Noam Chomsky.red[*]
+
+### "At least three theoretical issues cross-cut the debate on language evolution. One of the oldest problems among theorists is the 'shared versus unique' distinction. Most current commentators agree that, although bees dance, birds sing, and .red[chimpanzees grunt], these systems of communication differ qualitatively from human language. In particular, animal communication systems lack the rich expressive and open-ended power of human language..."
+
+.footnote[.red[*] Actually, Hauser, Chomsky, and Fitch 2002, "The Faculty of Language: <br />What Is It, Who Has It, and How Did It Evolve?", <i>Science</i>'s Compass.]
+
+???
+
+This isn't quite fair to say of the chimpanzees. 
+
+
+---
+
+class: center, middle
+
+.image-90[![Terrace article](images/terrace1.png)]
+![Terrace article](images/terrace2.png)
+![Terrace article](images/terrace3.png)
+
+???
+
+Nim Chimpsky, adopted into a human environment when he was 3 months old, learned a number of different signs that he used to communicate with his human handlers. But even his staunchest advocate — Herbert Terrace, a psychology professor at Colombia — ultimately concluded that Nim's linguistic abilities were exceeded even by three year old children.
+
+Read "The troubled life of Nim Chimpsky", by Peter Singer: http://www.nybooks.com/blogs/nyrblog/2011/aug/18/troubled-life-nim-chimpsky/
+
+In addition to Nim, there are many other examples:
+
+- Koko the Gorilla:  https://www.youtube.com/watch?v=SNuZ4OE6vCk 3:35 - 
+- Kanzi the Bonobo: https://www.youtube.com/watch?v=wRM7vTrIIis
+- Washoe the Chimpanzee
+- Chaser the Dog:  https://www.youtube.com/watch?v=_6479QAJuz8 0:35 - 1:40
+- Alex the Parrot
+
+---
+
+class: center, middle
+
+.image-90[![Terrace article](images/terrace1.png)]
+![Terrace article](images/terrace4.png)
+
+???
+
+See also: comparative tests on a chimpanzee and a human infant: https://www.youtube.com/watch?v=pwRgUKRA2iU
+
+---
+# Mean Length of Utterance (MLU)
+
+One way of measuring morphological development is to analyze the number of morphemes they produce, divided by the total number of utterances.
+
+      MLU  =  Total number of morphemes
+              -------------------------
+              Total number of utterances
+
+A child's MLU typically corresponds closely to their age. Roger Brown (1973) described 5 stages of language development based on this measure. 
+
+     stage    MLU        approx. age (mos.)   
+       I      1.0-2.0        12-26            
+       II     2.0-2.5        27-30            
+       III    2.5-3.0        31-34            
+       IV     3.0-3.75       35-40            
+       V      3.75-4.5       41-46            
+       V+     4.5+           47+              
+
+???
+
+Year equivalents: 
+
+   1-2
+
+   2 - 2 1/2
+
+   2 1/2 - 3
+
+   3 - 3 1/2
+
+   3 1/2 - 4
+
+   4+
+
+---
+# Is human language special? 
+
+---
+# Is human language special? 
+
+It has four properties, which .red[in combination] are unique in the animal kingdom: 
+
+  1. Discreteness
+  2. Grammar
+  3. Productivity
+  4. Displacement
+
+???
+
+For example, Nim likely lacked GRAMMAR and PRODUCTIVITY.
+
+These notes based on a cute 5 minute intro slide to the differences between human and animal communication: http://ed.ted.com/lessons/do-animals-have-language-michele-bishop
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+]
+.right-column[
+  At each level of analysis (phonology, morphology, syntax), there are .red[discrete units] that can be combined to create different expressions.
+]
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+]
+.right-column[
+  At each level of analysis (.red[phonology], morphology, syntax), there are discrete units that can be combined to create different expressions.
+
+  ## bat
+  ## tab
+  ## but
+  ## tub
+]
+
+???
+
+PHONEMES
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+]
+.right-column[
+  At each level of analysis (phonology, .red[morphology], syntax), there are discrete units that can be combined to create different expressions.
+
+  ### establish
+  ### matter
+  ### anti-matter
+  ### establish-ment
+  ### anti-establish-ment
+  ### anti-establish-ment-ari-an-ism
+
+]
+
+???
+MORPHEMES
+
+From wikipedia: "Antiestablishmentarianism (or anti-establishmentarianism) is a political philosophy that views a nation's or society's power structure as corrupt, repressive, exploitive or unjust."
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+]
+.right-column[
+  At each level of analysis (phonology, morphology, .red[syntax]), there are discrete units that can be combined to create different expressions.
+
+  #### This is the house [that Jack built].
+
+  #### This is the malt [that lay in the house [that Jack built]].
+
+  #### This is the rat [that ate the malt [that lay in [the house [that Jack built]]]].  
+
+  #### ...
+
+  #### This is the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the judge all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat [that ate the malt [that lay in the house [that Jack built]]]. 
+
+]
+
+???
+PHRASES
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human .red[grammar] is a set of internalized rules (phonological, morphological, syntactic) that we use to combine these discrete units.
+]
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human grammar is a set of internalized rules (.red[phonological], morphological, syntactic) that we use to combine these discrete units.
+
+  #### How to .red[write] a plural noun:   
+  ## cat.red[s]
+  ## car.red[s]
+  ## house.red[s]
+]
+
+???
+
+What's the rule here? "Add an -s". It's not AS straightforward when we turn to the actual sounds involved, however.
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human grammar is a set of internalized rules (.red[phonological], morphological, syntactic) that we use to combine these discrete units.
+
+  #### How to .red[pronounce] a plural noun:   
+  ## cat-.red[[s]]
+  ## car-.red[[z]]
+  ## house-.red[[ɘz]]
+  ## wug-.red[?]
+]
+
+???
+
+Phonology governs how we TALK, not how we spell. Phonological rules are learned when we're a kid, and no teacher taught us how to talk. 
+
+What evidence do we have for internalized rules? The WUG test.
+
+The "wug test" was first used by Jean Berko Gleason to illustrate that children really have internalized morphological rules. Read more: https://en.wikipedia.org/wiki/Jean_Berko_Gleason
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human grammar is a set of internalized rules (.red[phonological], morphological, syntactic) that we use to combine these discrete units.
+
+  #### How to .red[pronounce] a plural noun:   
+  ## cat-.red[[s]]
+  ## car-.red[[z]]
+  ## house-.red[[ɘz]]
+  ## wug-.red[[z]]
+]
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human grammar is a set of internalized rules (.red[phonological], morphological, syntactic) that we use to combine these discrete units.
+
+  #### How .red[not] to pronounce a plural noun:   
+  ## * cat-.red[[ɘz]]
+  ## * car-.red[[s]]
+  ## * catch-.red[[z]]
+  ## * wug-.red[[ɘz]]
+]
+
+???
+
+In fact, often what makes foreign languages SOUND foreign is that they're attempting to produce English sentences using a very different phonological system---they haven't mastered these implicit rules perfectly.
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human grammar is a set of internalized rules (phonological, .red[morphological], syntactic) that we use to combine these discrete units.
+
+  #### How to form new words:  
+  ## un-happy
+  ## happy-ly
+  ## establish-ment
+  ## anti-establish-ment
+]
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human grammar is a set of internalized rules (phonological, .red[morphological], syntactic) that we use to combine these discrete units.
+
+  #### How .red[not] to form new words:  
+  ## * happy-un
+  ## * dis-happy
+  ## * estab-ment-lish
+  ## * establish-ment-anti
+]
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human grammar is a set of internalized rules (phonological, morphological, .red[syntactic]) that we use to combine these discrete units.
+
+  #### How to form new sentences:  
+  ### Mary saw a man.
+  ### Mary saw [a man with a telescope].
+  ### Mary [saw a man] [with a telescope].
+  ### Mary saw [a man [with a telescope] [from Texas]].
+]
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+]
+.right-column[
+  Human grammar is a set of internalized rules (phonological, morphological, .red[syntactic]) that we use to combine these discrete units.
+
+  #### How .red[not] to form new sentences:  
+  ### * Mary a man saw.
+  ### * Mary saw [a [with a telescope] man].
+  ### * Mary [[with a telescope] saw] a man.
+  ### * Mary [saw a man] [with a telescope] [from Texas].
+]
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+    3. Productivity
+]
+.right-column[
+  Because grammar involves discrete pieces that are combined by .red[rule] (rather than rote memorization), we can combine these pieces to create an infinite number of .red[new] messages.
+
+]
+
+???
+
+Combinatorics in the wild (though, is there a "message"?):
+
+- White-eyed vireo: https://www.youtube.com/watch?v=bacpApp8Tzk 0:22-0:37
+- Zebra finch: https://www.youtube.com/watch?v=TaC6D1cW1Hs 0:00-0:23
+- Nightingale: https://www.youtube.com/watch?v=mw8hwxZJHsA 0:20-0:42
+
+Relevant Nature article: http://www.nature.com/nature/journal/v498/n7452/full/nature12173.html
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+    3. Productivity
+]
+.right-column[
+  Because grammar involves discrete pieces that are combined by .red[rule] (rather than rote memorization), we can combine these pieces to create an infinite number of .red[new] messages.
+
+### Consider Icarus, pasting those sticky wings on,.red[*]
+### testing that strange little tug at his shoulder blade,
+### and think of that first flawless moment over the lawn
+### of the labyrinth. Think of the difference it made!
+
+]
+
+.footnote[.red[*] From Anne Sexton's "To a Friend Whose Work Has Come to Triumph".]
+
+???
+
+This is what makes poetry possible, for example. Unless you've read this poem before, you've never heard these sentences, yet you know exactly what they  mean. 
+
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+    3. Productivity
+]
+.right-column[
+  Because grammar involves discrete pieces that are combined by .red[rule] (rather than rote memorization), we can combine these pieces to create an infinite number of .red[new] messages.
+
+  ### 'Twas brillig, and the slithy toves
+  ### Did gyre and gimble in the wabe;
+  ### All mimsy were the borogoves,
+  ### And the mome raths outgrabe..red[*]
+]
+
+.footnote[.red[*] From Lewis Carroll's "Jabberwocky". ]
+
+???
+
+We don't store sentences whole, and then "look them up" when we need them. We actively assign meaning to novel sentences. And much of what makes grammar truly meaningful are the bits that we aren't used to thinking about. For instance, we can get meaning even in what is ultimately nonsense.
+
+Obviously, if you haven't read Lewis Carroll's *Alice's Adventures in Wonderland* and *Through the Looking Glass*, you should do so immediately.
+
+
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+    3. Productivity
+    4. Displacement
+]
+.right-column[
+  We can use our language to talk about things that are .red[not of the here and now].
+]
+
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+    3. Productivity
+    4. Displacement
+]
+.right-column[
+  We can use our language to talk about things that are not of the here and now.
+
+  #### Talking about the here and now:
+
+  ### We are in class.
+  ### The lights are on. 
+  ### This is a slideshow.
+  ### I'm wearing shoes.
+]
+
+
+---
+layout: false
+.left-column[
+    ## Properties of human language
+    1. Discreteness
+    2. Grammar
+    3. Productivity
+    4. Displacement
+]
+.right-column[
+  We can use our language to talk about things that are not of the here and now.
+
+  #### Talking about .red[what isn't], what will be, what could be ...
+
+  ### We aren't outside.
+  ### The lights will be off later.
+  ### You might be enjoying this slideshow. 
+  ### If I was wearing sandals, my feet would be cold.
+]
+
+???
+
+PRODUCTIVITY/DISPLACEMENT.
+
+We're not tied to talking about the here and now---we can talk about possible worlds as easily as actual ones.
+
+
+
+---
+# Child language
+
+All of these properties are displayed by typically-developing 3 year old children. 
+
+???
+
+These are all really remarkable properties, surely AS remarkable as what the bee is doing. But we really don't know yet, how it's possible. 
+
+---
+# Child language
+
+All of these properties are displayed by typically-developing 3 year old children.
+
+All with almost no teaching or explicit instruction.
+
+???
+
+And the simplist hypothesis—that someone TEACHES it—doesn't seem to be supported by the evidence. 
+
+
+---
+
+# Is it hard?.red[*]
+
+### "...some cognitive scientists have described language as a psychological faculty, a mental organ, a neural system, and a computational module. But I prefer the admittedly quant term '.red[instinct]'. It conveys the idea that people know how to talk in more or less the sense that spiders know how to spin webs. Web-spinning was not invented by some unsung spider genius and does not depend on having had the right education or on having an aptitude for architecture or the construction trades. Rather, .red[spiders spin webs because they have spider brains, which give them the urge to spin and the competence to succeed]."
+
+.footnote[.red[*] Steven Pinker, <i>The Language Instinct</i>, 1994.]
+
+???
+
+Also if you haven't read this book, you should do so immediately. And if you have ever wondered how you can explain linguistics to your family or friends, you can pass them a copy of this book.
+
+---
+
+# Put yourself in the child's shoes
+
+You're going to a festival!
+
+???
+
+I want to give you a sense of what life is like for the child acquiring language, and quite how remarkable a feat they accomplish very early on. 
+
+What I want you to appreciate is the complexity of FORM in their language, so I'm going to show you children acquiring Japanese, rather than English. 
+
+
+---
+
+# 家族（予告).red[*]  
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/F6Zu9NwWDZ0?start=142&end=166&rel=0"
+frameborder="0" allowFullScreen></iframe>
+
+.footnote[.red[*] 2:22-2:46, https://youtu.be/F6Zu9NwWDZ0 ]
+
+???
+
+If you're a child at this age, you can't walk, talk, or feed yourself. You are utterly dependent on others for your survival. 
+
+Can you guess what they're talking about? 
+
+"Poor woman, why are you here if you can't afford it (festival), I may be poor but I don't owe anyone anything!" etc. 
+
+At this age, you actually don't know yet exactly WHAT they're talking about. But despite all appearances, you're actually very busily trying to figure it out.
+
+
+---
+
+# Language: year 1 (a snapshot)
+
+???
+
+You're less than a year old, you're not SAYING much, but you're doing quite a bit of listening.
+
+---
+
+# Language: year 1 (a snapshot)
+
+<table class="table">
+  <tr>
+    <td class="top"><b>0-3 mos.</b></td>
+    <td>
+      Perceive fine-grained phonetic distinctions in any language<br />
+      Distinguish two languages (but prefer your own)  <br />
+      Discriminate allophonic variations (e.g. <i>night rate</i> vs <i>nitrate</i>) <br />
+    </td>
+  </tr>
+</table>
+
+
+???
+
+Researchers have found out a lot about what you know. 
+
+A potential phonetic distinction that's hard for adults: e.g. breathy voiced vs voiceless aspirated dental stops in Hindi--- THA/DHA
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+---
+
+# Language: year 1 (a snapshot)
+
+<table class="table">
+  <tr>
+    <td class="top"><b>0-3 mos.</b></td>
+    <td>
+      Perceive fine-grained phonetic distinctions in any language<br />
+      Distinguish two languages (but prefer your own) <br />
+      Discriminate allophonic variations (e.g. <i>night rate</i> vs <i>nitrate</i>) <br />
+    </td>
+  </tr>
+  <tr>
+    <td class="top"><b>4-7 mos.</b></td>
+    <td>
+      Prefer to listen to words over other sounds <br />
+      Early expert perception for phonetic contrasts narrows <br />
+      Recognize words in sentences previously heard in isolation <br />
+    </td>
+  </tr>
+</table>
+
+
+???
+
+Phonetic contrasts: might not tell the difference between the Hindi sounds, because those contrasts aren't being used in the ambient environment. 
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+---
+
+# Language: year 1 (a snapshot)
+
+<table class="table">
+  <tr>
+    <td class="top"><b>0-3 mos.</b></td>
+    <td>
+      Perceive fine-grained phonetic distinctions in any language<br />
+      Distinguish two languages (but prefer your own) <br />
+      Discriminate allophonic variations (e.g. <i>night rate</i> vs <i>nitrate</i>) <br />
+    </td>
+  </tr>
+  <tr>
+    <td class="top"><b>4-7 mos.</b></td>
+    <td>
+      Prefer to listen to words over other sounds <br />
+      Early expert perception for phonetic contrasts narrows <br />
+      Recognize words in sentences previously heard in isolation <br />
+    </td>
+  </tr>
+    <tr>
+    <td class="top"><b>8-11 mos.</b></td>
+    <td>
+      Prefer language-specific phonotactically well-formed strings <br />
+      Use phonotactic and prosodic cues to locate word boundaries <br />
+      Recognize words from stories heard 2 weeks earlier <br />
+    </td>
+  </tr>
+</table>
+
+
+???
+
+Phonotactics: So they might prefer a nonce word like GLEEB to one like XTCHACK.
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+---
+
+## 会話が膨らむようになってきた.red[*]
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/caeRbVA7Sxs?start=60&end=75&rel=0"
+frameborder="0" allowFullScreen></iframe>
+
+.footnote[.red[*] 1:00-1:15, https://www.youtube.com/watch?v=caeRbVA7Sxs ]
+
+???
+
+By 2, your abilities have improved markedly. 
+
+Not only can you feed yourself, you can carry on fairly sophisticated conversations. 
+
+Can you guess what they're talking about? They're talking about tadpoles. 
+
+
+---
+
+# Language: year 2 (a snapshot)
+
+---
+
+# Language: year 2 (a snapshot)
+
+<table class="table">
+  <tr>
+    <td class="top"><b>12-14 mos.</b></td>
+    <td>
+      Onset of first words in production<br />
+      Linkages between words and concepts (kind, property, etc) <br />
+      Distinguish novel words categorically (nouns -> objects)<br />
+    </td>
+  </tr>
+</table>
+
+
+???
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+---
+
+# Language: year 2 (a snapshot)
+
+<table class="table">
+  <tr>
+    <td class="top"><b>12-14 mos.</b></td>
+    <td>
+      Onset of first words in production<br />
+      Linkages between words and concepts (kind, property, etc) <br />
+      Distinguish novel words categorically (nouns -> objects)<br />
+    </td>
+  </tr>
+  <tr>
+    <td class="top"><b>15-18 mos.</b></td>
+    <td>
+      Beginning of word combination and sentence production<br />
+      Discriminate different words for similar actions (<i>push</i> v <i>pull</i>) <br />
+      One trial learning for initiation of new words<br />
+    </td>
+  </tr>
+</table>
+
+
+???
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+---
+
+# Language: year 2 (a snapshot)
+
+<table class="table">
+  <tr>
+    <td class="top"><b>12-14 mos.</b></td>
+    <td>
+      Onset of first words in production<br />
+      Linkages between words and concepts (kind, property, etc) <br />
+      Distinguish novel words categorically (nouns -> objects)<br />
+    </td>
+  </tr>
+  <tr>
+    <td class="top"><b>15-18 mos.</b></td>
+    <td>
+      Beginning of word combination and sentence production<br />
+      Discriminate different words for similar actions (<i>push</i> v <i>pull</i>) <br />
+      One trial learning for initiation of new words<br />
+    </td>
+  </tr>
+  <tr>
+    <td class="top"><b>19-23 mos.</b></td>
+    <td>
+      Show sensitivity to discontinuous agreement (e.g. <i>is...ing</i>) <br />
+      New words proliferate; estimated 10-220 <br />
+      Able to associate nonsense labels with event categories
+    </td>
+  </tr>
+</table>
+
+
+???
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+
+---
+
+
+# 人気の子役共演.red[*]
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/jWEaTP0NHnM?start=105&end=130&rel=0"
+frameborder="0" allowFullScreen></iframe>
+
+.footnote[.red[*] 1:45-2:10, https://www.youtube.com/watch?v=jWEaTP0NHnM ]
+
+???
+
+Finally, eventually, you're 6. At this point, you can express yourself as well as the adults in your life.
+
+"This is a famous a child actor, he speaks like an adult." (Masaya)
+
+What are they talking about? "When do you feel sad, and what do you feel sad about? When I'm in Tokyo, I can't see my Grandma, and then I feel sad."
+
+
+---
+
+# Language: years 3-6 (a snapshot)
+
+???
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+---
+
+# Language: years 3-6 (a snapshot)
+
+<table class="table">
+  <tr>
+    <td class="top"><b>3 years</b></td>
+    <td>
+      Complex syntax, including embedding and transformations<br />
+      May understand and produce 50-1,000 words <br />
+      Knowledge of ambiguity becomes evident (e.g. VP ellipsis)
+    </td>
+  </tr>
+</table>
+
+
+???
+
+Grammatical operations like coordinate and adjoined or embedded sentences. 
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+---
+
+# Language: years 3-6 (a snapshot)
+
+<table class="table">
+  <tr>
+    <td class="top"><b>3 years</b></td>
+    <td>
+      Complex syntax, including embedding and transformations<br />
+      May understand and produce 50-1,000 words <br />
+      Knowledge of ambiguity becomes evident (e.g. VP ellipsis)
+    </td>
+  </tr>
+  <tr>
+    <td class="top"><b>years 3+</b></td>
+    <td>
+      Essential syntax of the target language is in place <br />
+      Estimated vocabulary of 5,000-10,000 words by 5 years <br />
+      Development of semantic scope operations in syntax<br />
+      Development of theory of mind and intentions relevant to language <br />
+      Higher order semantics (e.g. logical connectives and quantifiers)<br />
+      Continued integration of pragmatics, semantics, and syntax<br />
+    </td>
+  </tr>
+</table>
+
+
+???
+
+After a couple more years, you display other remarkable abilities. 
+
+Summary from Barbara Lust's 2006, **Child Language: Acquisition and Growth**, see Appendices for citations to the scientific literature.
+
+---
+
+# 『子犬のワルツ』.red[*]
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/xwjBZ0tHwZQ?start=16&end=64&rel=0"
+frameborder="0" allowFullScreen></iframe>
+
+.footnote[.red[*] 0:16-1:04, https://www.youtube.com/watch?v=xwjBZ0tHwZQ ]
+
+???
+
+But doing this is much harder. Not every 6 year old can do this.
+
+6 year old girl playing "Puppy waltz", Chopin, Op. 64 No. 1
+
+---
+# And after that?
+
+It's essentially just motor control. 
+
+???
+
+Any of us who have had experience with children knows that they sometimes make mistakes. And often, these mistakes can be informative as to how they're grammar is developing. But much of what they need to learn from the perspective of GRAMMAR seems to be in place already—They get the principles of the language.
+
+Usually, the most salient difference between child speech and adult speech is in the precision with which the words and sentences are PRONOUNCED. This is because speaking is one of the most expert activities we will ever engage in. It requires coordinating a lot of different motor areas. 
+
+---
+# Lang Lang plays "Puppy Waltz".red[*]
+
+<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+width="640" height="390" src="http://www.youtube.com/embed/hKILwVH_MdM?start=7&end=50&rel=0"
+frameborder="0" allowFullScreen></iframe>
+
+.footnote[.red[*] 0:07-0:50, https://www.youtube.com/watch?v=hKILwVH_MdM ]
+
+???
+
+But, we all get better with little effort In other domains, like music, we don't necessarily get to Lang Lang's level; but in language nearly everyone is expert.
+
+Chinese pianist Lang Lang performing the same song as the 6 year old girl previously.
+
+---
+# Why bother studying language acquisition? 
+
+Human language, and its acquisition, is surely remarkable, but what does it **do** for us to understand how it works? 
+
+
+---
+# What it means to be human.red[*]
+
+### "Language is so tightly woven into human experience that .red[it is scarcely possible to imagine life without it]. Chances are that if you find two or more people together anywhere on earth, they will soon be exchanging words. When there is no one to talk with, people talk to themselves, to their dogs, even to their plants. In our social relations, .red[the race is not to the swift but to the verbal]—the spell-binding orator, the silver-tongued seducer, the persuasive child who wins the battle of wills against a brawnier parent. .red[Aphasia, the loss of language following brain injury, is devastating], and in severe cases family members may feel that the whole person is lost forever."
+
+.footnote[.red[*] Steven Pinker, <i>The Language Instinct</i>, 1994]
+
+
+---
+# Why bother?
+
+Not only is human language special in the animal kingdom, but it might be the very thing that **makes** us special.
+
+Studying language acquisition teaches us more about this unique ability and how we came to have it.
+
+---
+# Notes
+
+Reading next class: 
+
+.red[Gleitman & Newport (1995)], The Invention of Language by Children.
+
+Contact:
+
+     Alexis Wellwood (call me "Alexis")
+     Office: #303 in the Linguistics House, 2016 Sheridan Rd
+     Office hours: Wednesdays from 10-12
+     Email: wellwood@northwestern.edu
+     Course website: alexiswellwood.org/ling311/
+
+
+
+  
+
+
+
+    </textarea>
+ <!--   <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"> -->
+    <script src="remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>

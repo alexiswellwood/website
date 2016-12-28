@@ -1,0 +1,10 @@
+---
+title: "Linguistics 499: independent study (degrees)"
+date: 2016-03-26
+term: Spring quarter
+institution: Northwestern University
+author: Alexis Wellwood
+blog: teaching
+---
+
+Discussing the syntax, semantics, processing, and acquisition of comparative structures.

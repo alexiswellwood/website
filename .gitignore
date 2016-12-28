@@ -9,6 +9,7 @@
 
 # Ignore the build directory
 /build
+/drafts
 
 # Ignore cache
 /.sass-cache

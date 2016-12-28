@@ -1,0 +1,13 @@
+---
+title: "States and events for S-level gradable adjectives"
+date: 2016-09-09
+authors: Alexis Wellwood
+venue: <i>Semantics and Linguistic Theory (SALT) 26</i> 
+local: /downloadables/w2016salt26-official.pdf
+tags: semantics, comparatives, adjectives, events, states
+---
+
+The event analysis is only rarely incorporated into degree-theoretic treatments of adjectival comparatives. I propose a neodavidsonian account of predications like *Ann was happy* that involves quantification over both states and events. This 'double-eventuality' analysis is motivated primarily by how stage-level gradable adjectives interact with temporal *for*-phrases in two classes of comparatives, which I differentiate as 'low' versus 'high' attachment of the comparative morpheme. Low attachment comparatives express canonical degree readings (*more available*), while high attachment involve comparing numbers of occasions (*available more*). I resolve these patterns by positing a stative core for adjectives, and the possibility of mapping properties of states to properties of events. Low attachment interpretations, then, involve comparison of states, and high involve comparison of (pluralities of) events. I show that the analysis extends to other cases where states and events can do work for adjectives outside of comparatives.
+
+
+

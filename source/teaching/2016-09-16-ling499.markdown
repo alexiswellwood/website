@@ -1,0 +1,10 @@
+---
+title: "Linguistics 499: independent study (plurality)"
+date: 2016-09-16
+term: Fall quarter
+institution: Northwestern University
+author: Alexis Wellwood
+blog: teaching
+---
+
+Reading classic and contemporary works on the structure and interpretation of reciprocal sentences.

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= "wellwood " + current_page.data.title.to_s  %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- css -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <%= stylesheet_link_tag 'bootstrap-theme' %>
+    <%= stylesheet_link_tag 'normalize' %>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <%= stylesheet_link_tag 'main' %>
+
+    <!-- js -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <%= javascript_include_tag 'jquery-2.1.4.min' %>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+    </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar navbar-custom navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 class="project"><a href="../">alexis wellwood</a></h1>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-right navbar-nav">
+            <li><%= link_to 'blog', '/index.html' %></li>
+            <li><%= link_to 'publications', '/research.html' %></li>
+            <li><%= link_to 'teaching', '/teaching.html' %></li>
+            <li><%= link_to 'CV', '/downloadables/wellwood_cv.pdf' %></li>
+            <li><%= link_to 'contact', '/contact.html' %></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">outside <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://childlab.northwestern.edu">
+                  <i class="fa fa-flask"></i> ChiLDlab</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://scholar.google.com/citations?user=kXaP_BgAAAAJ&hl=en">
+                  <i class="fa fa-google"></i> citations</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/alexiswellwood">
+                  <i class="fa fa-twitter"></i> twitter</a>
+                </li> 
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://linguistics.stackexchange.com/users/178/alexis-wellwood">
+                  <i class="fa fa-stack-exchange"></i> ling.stack</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://delicious.com/luxolic">
+                  <i class="fa fa-delicious"></i> bookmarks</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/alexiswellwood">
+                  <i class="fa fa-github"></i> github</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse-->
+      </div><!--/.container-->
+    </div><!--/.navbar-static-top-->
+    <!--/.navbar--> 
+
+    <!--main content-->
+    <div class="container">
+      <div class="row">
+
+        <!-- site content -->
+        <div class="col-md-12">
+            <%= yield %>
+        </div><!--/site content-->
+            
+      </div>
+    </div><!--/main content-->
+
+    <!-- footer -->
+    <div class="container">
+      <div class="footer pull-right" style="padding-top:40px;">
+         <p class="text-muted">&copy; 2016 alexis wellwood</p>
+      </div>
+    </div><!-- /footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <%= javascript_include_tag 'bootstrap.min' %>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>

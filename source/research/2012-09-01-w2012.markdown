@@ -5,7 +5,7 @@ authors: Alexis Wellwood
 venue: <i>Proceedings of Sinn und Bedeutung 17</i>
 local: /downloadables/w2012sub.pdf
 official: http://semanticsarchive.net/sub2012/Wellwood.pdf
-tags: semantics, comparatives, events
+tags: semantics, comparatives, events, adjectives
 ---
 
 Bresnan (1973) posited that *more* is uniformly analyzed as *much-er*, whether it appears

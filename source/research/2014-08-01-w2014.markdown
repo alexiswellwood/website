@@ -4,7 +4,7 @@ date: 2014-08-01
 authors: Alexis Wellwood
 venue: University of Maryland linguistics dissertation
 local: /downloadables/w2014diss.pdf
-tags: semantics, comparatives, events
+tags: semantics, comparatives, events, adjectives
 ---
 
 Determining  the  semantic  content  of  sentences,  and  uncovering  regularities

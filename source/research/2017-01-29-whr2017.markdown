@@ -1,0 +1,10 @@
+---
+title: "The <i>object : substance :: event : process</i> analogy"
+date: 2017-01-29
+authors: Alexis Wellwood, Susan J. Hespos &amp; Lance Rips
+venue: accepted for <i>Oxford Studies in Experimental Philosophy, Volume 2</i>
+local: /downloadables/whr2017xphi.pdf
+tags: semantics, events, psycholinguistics, number
+---
+
+Beginning at least with Bach (1986), semanticists have suggested that the objects/events and substances/processes that nouns and verbs apply to are strongly parallel. We investigate whether these parallels can be understood to reflect a shared representational format in cognition, which in turn underlies aspects of the intuitive metaphysics of these categories. We hypothesized that a way of counting (atomicity) is necessary for object and event representations, unlike substance or process representations. Atomicity is strongly implied by plural language (*some gorps*, for novel *gorp*) but not mass language (*some gorp*). We investigate the language-perception interface across these domains using minimally different images and animations designed to encourage atomicity ('natural' spatial and temporal breaks), versus those that should not ('unnatural' breaks). Testing preference for matching such stimuli with mass or count syntax, our results support Bach’s analogy in perception, and highlight the formal role of atomicity in object and event representation.

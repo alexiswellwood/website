@@ -1,0 +1,11 @@
+---
+title: "Linguistics 470: Semantic analysis"
+date: 2017-03-23
+term: Spring quarter
+institution: Northwestern University
+author: Alexis Wellwood
+classpage: /classes/ling470.html
+blog: teaching
+---
+
+This is an advanced graduate-level course in formal semantics. It presupposes knowledge of the material covered in the Heim &amp; Kratzer (1998) textbook at least through chapter 8, including basic set theory, propositional logic, predicate logic, type theory, and the lambda calculus. Half of the class will be focused on expanding the student's basic semantic toolkit, and the other half on reading primary literature. This division is reflected in the bipartite structure of the course. The first half is a technical deep-dive into (some of) what students need to know post-Heim &amp; Kratzer, and is primarily lecture- and homework-based. The second half focuses on deep reading of classic papers, and is primarily reading- and discussion-based. Throughout, we focus on a small subset of the major areas of classic and contemporary research in formal semantics. The topics can be broadly categorized according to the types of new entities they introduce into our model, namely worlds, times, pluralities, eventualities, and... *stuff*.  

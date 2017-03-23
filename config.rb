@@ -28,6 +28,7 @@ activate :blog do |blog|
   blog.taglink = "tags/{tag}.html"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  blog.paginate = true
 end
 
 activate :blog do |blog|
@@ -35,7 +36,7 @@ activate :blog do |blog|
   blog.name = "teaching"
   blog.permalink = "{year}/{month}/{title}.html"
   blog.calendar_template = "calendar.html"
-#  blog.paginate = true
+  blog.paginate = true
 end
 
 activate :syntax

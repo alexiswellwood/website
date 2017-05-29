@@ -1,6 +1,6 @@
 ---
 title: "On how verification tasks are related to verification procedures: A reply to Kotek et al."
-date: 2016-12-26
+date: 2017-05-29
 authors: Tim Hunter, Jeffrey Lidz, Darko Odic, and Alexis Wellwood
 venue: Natural Language Semantics
 local: /downloadables/whr2017xphi.pdf

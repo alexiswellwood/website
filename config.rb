@@ -119,14 +119,14 @@ activate :deploy do |deploy|
   deploy.method           = :sftp
   deploy.build_before    = true
 #  deploy.host            = 'alexiswellwood.org' 
-  deploy.host            = 'faculty.wcas.northwestern.edu' 
+  deploy.host            = 'mizar.usc.edu' 
   deploy.port            = 22
 #  deploy.path            = '/home/alexiswellwood/alexiswellwood.org'
-  deploy.path            = '/home/faculty/acw346/public_html/'
+  deploy.path            = '/home/usc/02/wellwood/public_html'
   # deploy.flags           = "-avze 'ssh'"
   # Optional Settings
-  deploy.user     = 'acw346' 
-  # deploy.password = 'secret' # no default
+  deploy.user     = 'wellwood' 
+  deploy.password = 'secret' # no default
 end
 
 

@@ -3,7 +3,16 @@ Blog
 <% end %>
 <% wrap_layout :layout do %>
 
-    <h3 class="lowercase"><%= current_page.data.title %> <span class="date"><%= current_page.date.strftime("%m.%e.%Y") %></span></h3>
+    <h3 class="lowercase"><%= current_page.data.title %> <span class="date"><%= current_page.date.strftime("%m.%e.%Y") %></span>
+  <span class="article-links">
+    <% if current_page.data.local %>
+      <span><%= link_to '<i class="fa fa-file-pdf-o"></i>'.html_safe, current_page.data.local %></span>
+    <% end %>
+    <% if current_page.data.official %>
+      <span><%= link_to '<i class="fa fa-university"></i>'.html_safe, current_page.data.official %></span>
+    <% end %>
+  </span>
+    </h3>
     <%= yield %>
 
 <% end %>

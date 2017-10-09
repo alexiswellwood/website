@@ -26,6 +26,7 @@ activate :blog do |blog|
   blog.name = "research"
   blog.permalink = "{year}/{title}.html"
   blog.taglink = "tags/{tag}.html"
+  blog.layout = "post"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
   blog.paginate = true
@@ -35,6 +36,7 @@ activate :blog do |blog|
   blog.prefix = "teaching"
   blog.name = "teaching"
   blog.permalink = "{year}/{month}/{title}.html"
+  blog.layout = "post"
   blog.calendar_template = "calendar.html"
   blog.paginate = true
 end
@@ -115,18 +117,23 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-#  deploy.method          = :rsync
-  deploy.method           = :sftp
+  deploy.method          = :rsync
+#  deploy.method           = :sftp
   deploy.build_before    = true
 #  deploy.host            = 'alexiswellwood.org' 
   deploy.host            = 'mizar.usc.edu' 
-  deploy.port            = 22
+#  deploy.port            = 22
 #  deploy.path            = '/home/alexiswellwood/alexiswellwood.org'
   deploy.path            = '/home/usc/02/wellwood/public_html'
-  # deploy.flags           = "-avze 'ssh'"
+  deploy.flags           = "-avze"
   # Optional Settings
   deploy.user     = 'wellwood' 
   deploy.password = 'secret' # no default
 end
 
 
+## for now, here's how deploying works: 
+## enter this into Terminal from middleman directory
+## run build first, then use scp (copies the whole build dir)
+# middleman build
+# scp -r build/* wellwood@mizar.usc.edu:/home/usc/02/wellwood/public_html/

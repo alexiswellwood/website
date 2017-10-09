@@ -10,11 +10,17 @@ blog: research
 <h1 class="lowercase pageheader">publications </h1>
 
 <% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
+  <p>
+    page <%= page_number %> of <%= num_pages %> 
 
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
+    <% if next_page %>
+      | <%= link_to 'go to next page', next_page %>
+    <% end %>
+
+    <% if prev_page %>
+      | <%= link_to 'go to previous page', prev_page %>
+    <% end %>
+  </p>
 <% end %>
 
 <% page_articles.each_with_index do |article, i| %>
@@ -66,8 +72,18 @@ blog: research
 </ul>
 /gets articles by tags-->
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
+
+<% if paginate && num_pages > 1 %>
+  <br /><br />
+  <p>
+    page <%= page_number %> of <%= num_pages %> 
+
+    <% if next_page %>
+      | <%= link_to 'go to next page', next_page %>
+    <% end %>
+
+    <% if prev_page %>
+      | <%= link_to 'go to previous page', prev_page %>
+    <% end %>
+  </p>
 <% end %>

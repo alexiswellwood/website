@@ -1,0 +1,10 @@
+---
+title: "How similar are objects and events?"
+date: 2017-09-28
+authors: Alexis Wellwood, Susan J. Hespos, and Lance Rips
+venue: accepted for <i>Acta Linguistica</i>
+local: /downloadables/whr2017acta-accepted.pdf
+tags: semantics, psycholinguistics, number, cognitive science
+---
+
+Semanticists often assume an ontology for natural language that includes not only ordinary objects, but also events, as well as further distinctions. We link this ontology to how speakers represent static and dynamic entities. Specifically, we test how speakers determine whether an entity counts as "atomic" by using count vs. mass (e.g., *some gleebs*, *some gleeb*) and distributive vs. non-distributive descriptions (e.g., *gleeb every second or so*, *gleeb around a little*). We then seek evidence for atomic representation in a non-linguistic task. Ultimately we suggest that natural language ontology reveals properties of language-independent conceptualization.

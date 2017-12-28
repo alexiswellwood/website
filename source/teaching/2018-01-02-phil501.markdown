@@ -1,0 +1,11 @@
+---
+title: "Philosophy 501: Seminar in grading modality"
+date: 2017-12-28
+term: Spring semester
+institution: University of Southern California
+author: Alexis Wellwood
+classpage: /classes/phil501.html
+blog: teaching
+---
+
+This is a course at the intersection of degree semantics and modal semantics. Building on the recent surge of work on scalar (i.e. degree-based) modality, it aims to guide students to appreciate and investigate foundational, methodological and empirical questions in this paradigm. After introducing both standard degree semantics and standard modal semantics, we explore questions like: When is a degree-theoretic treatment appropriate? Should there be morphosyntactic requirements (e.g. explicit degree morphemes) that characterize expressions suited to such a treatment? Are there translations between some degree-theoretic semantic theories and some standard (non-degree based) theories? 

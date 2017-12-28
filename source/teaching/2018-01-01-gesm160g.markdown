@@ -1,0 +1,11 @@
+---
+title: "GESM 160g: The logic of events"
+date: 2018-01-01
+term: Spring semester
+institution: University of Southern California
+author: Alexis Wellwood
+classpage: /classes/gesm160g.html
+blog: teaching
+---
+
+Linguists say that sentences describe events, while nouns describe objects. Psychologists describe distinct principles of event perception, and philosophers debate the metaphysics of event identity. But how do these various discussions relate to each other? And in particular, do we mean the same thing by "event"? In this course, we focus on the structure and meaning of the types of sentences used to motivate event-based analyses of natural language, with particular attention devoted to adverbial modification, perceptual reports, thematic roles, aspect, and pluractionality.  Throughout, we consider the implications of such analyses for different views on the relationships between language, mind, and the world. 

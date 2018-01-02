@@ -1,6 +1,6 @@
 ---
-title: "Philosophy 501: Seminar in grading modality"
-date: 2017-12-28
+title: "Philosophy 501: Grading Modality"
+date: 2018-01-02
 term: Spring semester
 institution: University of Southern California
 author: Alexis Wellwood

@@ -1,0 +1,10 @@
+---
+title: Confidence reports
+date: 2018-05-11
+authors: Fabrizio Cariani, Paolo Santorio, and Alexis Wellwood
+venue: submitted for review<!-- (May 2018 version) -->
+local: https://philpapers.org/rec/CARCR-7
+tags: semantics, comparatives, events, modality, adjectives
+---
+
+We advocate and develop a states-based semantics for both nominal and adjectival confidence reports, as in "Ann is confident/has confidence that it's raining", and their comparatives "Ann is more confident/has more confidence that it's raining than that it's snowing". Other examples of adjectives that can report confidence include "sure" and "certain". Our account adapts Wellwood's account of adjectival comparatives in which the adjectives denote properties of states, and measure functions are introduced compositionally. We further explore the prospects of applying these tools to the semantics of probability operators. We emphasize three desirable and novel features of our semantics: (i) probability claims only exploit qualitative resources unless there is explicit compositional pressure for quantitative resources; (ii) the semantics applies to both probabilistic adjectives (e.g., "likely") and probabilistic nouns (e.g., "probability"); (iii) the semantics can be combined with an account of belief reports that allows thinkers to have incoherent probabilistic beliefs (e.g. thinking that A & B is more likely than A) even while validating the relevant purely probabilistic claims (e.g. validating the claim that A & B is never more likely than A). Finally, we explore the interaction between confidence-reporting discourse (e.g., "I am confident that...") and belief-reports about probabilistic discourse (e.g.,"I think it's likely that..").

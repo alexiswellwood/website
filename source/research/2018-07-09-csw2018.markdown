@@ -1,6 +1,6 @@
 ---
 title: Confidence reports
-date: 2018-05-11
+date: 2018-07-09
 authors: Fabrizio Cariani, Paolo Santorio, and Alexis Wellwood
 venue: submitted for review<!-- (May 2018 version) -->
 local: https://philpapers.org/rec/CARCR-7

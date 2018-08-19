@@ -4,7 +4,6 @@ date: 2018-01-01
 term: Spring semester
 institution: University of Southern California
 author: Alexis Wellwood
-classpage: /classes/gesm160g.html
 blog: teaching
 ---
 

@@ -27,10 +27,10 @@ blog: research
   <h3 class="lowercase"><%= article.data.title %> <span class="date"><%= article.date.strftime("%Y") %>
   <span class="article-links">
     <% if article.data.local %>
-      <span><%= link_to '<i class="fa fa-file-pdf-o"></i>'.html_safe, article.data.local %></span>
+      <span><%= link_to '<i class="fa fa-file-pdf-o"></i>'.html_safe, article.data.local, target: :_blank %></span>
     <% end %>
     <% if article.data.official %>
-      <span><%= link_to '<i class="fa fa-university"></i>'.html_safe, article.data.official %></span>
+      <span><%= link_to '<i class="fa fa-university"></i>'.html_safe, article.data.official, target: :_blank %></span>
     <% end %>
   </span>
   </h3>

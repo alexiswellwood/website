@@ -2,7 +2,7 @@
 title: "How similar are objects and events?"
 date: 2018-07-08
 authors: Alexis Wellwood, Susan J. Hespos, and Lance Rips
-venue: <i>Acta Linguistica</i>
+venue: "<i>Acta Linguistica</i>"
 local: /downloadables/whr2018acta-preprint.pdf
 official: https://akademiai.com/doi/10.1556/2062.2018.65.2-3.9
 tags: semantics, psycholinguistics, number, cognitive science

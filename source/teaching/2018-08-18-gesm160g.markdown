@@ -1,0 +1,11 @@
+---
+title: "GESM 160g: The logic of events"
+date: 2018-08-18
+term: Fall semester
+institution: University of Southern California
+author: Alexis Wellwood
+classpage: /classes/gesm160g.html
+blog: teaching
+---
+
+Linguists say that sentences describe events, while nouns describe objects. Psychologists describe principles of event perception, and philosophers debate the metaphysics of event identity. Our legal system holds us responsible for our actions (presumably, particular sorts of events), and, in some cases, our failures to act. How do these various discussions relate to each other? And in particular, do we mean the same thing by "event"? We explore this question through a variety of interrelated topics including: the nature of actions; the logic underlying event talk; the distinction between event participants and (mere) bystanders; the structural similarities between ordinary objects and events; and, the emergence of our intuitions about these things in early childhood. This study engages with the analytic techniques of linguistics and philosophy and the experimental methods of cognitive psychology. These tools help us appreciate the complicated relationship between the way the world is (or: might be) and the way we think it is. As such, the course will be appropriate for students that are: curious about the nature of language and mind; seeking an introduction to the use of formal methods in philosophical/scientific inquiry; and, who would like to see how a research topic can fruitfully be addressed across traditional disciplinary divides.

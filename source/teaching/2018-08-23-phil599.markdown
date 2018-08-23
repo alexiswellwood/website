@@ -1,0 +1,11 @@
+---
+title: "Philosophy 599: Ontology &amp; Logical Form"
+date: 2018-08-23
+term: Fall semester
+institution: University of Southern California
+author: Alexis Wellwood &amp; Barry Schein 
+classpage: /classes/phil599.html
+blog: teaching
+---
+
+Semantic analysis often suggests the appropriateness of positing different sorts of entities, whether simple or structured, to act as, at least, targets for reference and quantification. Postulating some of these entities may accord well enough with intuition (e.g., objects and events) while others can seem more mysterious (e.g., processes and states). In this course, we examine the evidence for some of these posits, with a major focus on the mass-count and telicity distinctions, and their interactions with degree constructions (i.e., sentences with <i>more</i>, <i>less</i>, <i>enough</i>, etc). Here, technical notions from mereology, mereotopology, and measurement theory are introduced. More broadly, we explore questions like: what is the role that ontology can play in semantic explanation? And, what do we mean by "ontology"? Should we understand, in particular, the "natural language metaphysics" produced in semantic theory as (properly) metaphysics, or something else? If metaphysics wants to read (worldly) ontology off of the logical form of English or any other language, what justifies this move? Correspondingly, if cognitive psychologists want to read human conceptual structure off of logical form, how is that justified? Etc.

@@ -36,11 +36,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <h1 class="project"><a href="#">alexis wellwood</a></h1> 
+         <h1 class="project">alexis wellwood</h1> 
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-right navbar-nav">
-            <li><%= link_to 'blog', '/index.html' %></li>
+            <li><%= link_to 'home', '/index.html' %></li>
+            <li><%= link_to 'blog', '/blog.html' %></li>
             <li><%= link_to 'publications', '/research.html' %></li>
             <li><%= link_to 'teaching', '/teaching.html' %></li>
             <li><%= link_to 'CV', '/downloadables/wellwood_cv.pdf', target: :_blank %></li>
@@ -76,21 +77,11 @@
 
     <!--main content-->
     <div class="container">
-      <div class="row">
-        <div class="col-md-3" style="padding-top:18px;">
-          <div><a href="/blog/" class="img-responsive"><%= image_tag "me_L.png", :width => "100%", :alt => "alexis singing" %></a></div>
-          <div class="meta">
-            <p>I am an Assistant Professor in the <a href="https://dornsife.usc.edu/phil" target="_blank">School of Philosophy</a> at the <a href="https://www.usc.edu/">University of Southern California</a>, specializing in semantics.</p>
-            <p>I direct the Meaning Lab (website soon!), which investigates what humans think about word and sentence meaning. </p>
-          </div>
-        </div><!--/col-md-3-->
+      <!-- site content -->
+      <div class="col-md-12">
+          <%= yield %>
+      </div><!--/site content-->
 
-        <!-- site content -->
-        <div class="col-md-9">
-            <%= yield %>
-        </div><!--/site content-->
-            
-      </div>
     </div><!--/main content-->
 
     <!-- footer -->

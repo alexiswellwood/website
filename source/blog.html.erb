@@ -1,0 +1,55 @@
+---
+title: blog
+date: 2015-08-01
+author: alexis wellwood
+pageable: true
+per_page: 10
+blog: blog
+---
+
+<h1 class="lowercase pageheader">blog</h1>
+
+<% if paginate && num_pages > 1 %>
+  <p>
+    page <%= page_number %> of <%= num_pages %>
+
+    <% if next_page %>
+      | <%= link_to 'go to next page', next_page %>
+    <% end %>
+
+    <% if prev_page %>
+      | <%= link_to 'go to previous page', prev_page %>
+    <% end %>
+  </p>
+<% end %>
+
+<% page_articles.each_with_index do |article, i| %>
+  <h3 class="lowercase"><%= link_to article.title, article %> <span class="date"><%= article.date.strftime("%m.%e.%Y") %></span></h3>
+  <!-- use article.summary(250) if you have Nokogiri available to show just the first 250 characters -->
+  <%= article.body %>    
+<% end %>
+
+
+
+
+
+<!-- <h2 class="lowercase">Tags</h2>
+      <ol>
+        <% blog.tags.each do |tag, articles| %>
+          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+        <% end %>
+      </ol> -->
+
+<% if paginate && num_pages > 1 %>
+  <p>
+    page <%= page_number %> of <%= num_pages %>
+
+    <% if next_page %>
+      | <%= link_to 'go to next page', next_page %>
+    <% end %>
+
+    <% if prev_page %>
+      | <%= link_to 'go to previous page', prev_page %>
+    <% end %>
+  </p>
+<% end %>

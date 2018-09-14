@@ -1,53 +1,53 @@
 ---
-title: blog
-date: 2015-08-01
+title: home
+date: 2018-09-13
 author: alexis wellwood
 pageable: true
 per_page: 10
 blog: blog
 ---
 
-<% if paginate && num_pages > 1 %>
-  <p>
-    page <%= page_number %> of <%= num_pages %>
+<h1 class="lowercase pageheader">overview</h1>
 
-    <% if next_page %>
-      | <%= link_to 'go to next page', next_page %>
-    <% end %>
+<p>I am an Assistant Professor at the <a href="https://www.usc.edu/" target="_blank">University of Southern California</a> with a primary appointment in the <a href="https://dornsife.usc.edu/phil" target="_blank">School of Philosophy</a>, a courtesy appointment in the <a href="https://dornsife.usc.edu/ling/" target="_blank">Department of Linguistics</a>, and a formal affiliation with the <a href="https://dornsife.usc.edu/cognitive-science" target="_blank">Cognitive Science Program</a>. I created and direct the Meaning Lab at USC (website soon!) which conducts <a href="https://www.nsf.gov/" target="_blank">NSF</a>-funded research into what adults and little children know about word and sentence meaning. Prior to my arrival at USC in 2017, I was an Assistant Professor of <a href="https://www.linguistics.northwestern.edu/" target="_blank">Linguistics</a> at <a href="https://www.northwestern.edu/" target="_blank">Northwestern University</a>, where I was affiliated with the <a href="https://www.philosophy.northwestern.edu/" target="_blank">Department of Philosophy</a> and the <a href="https://www.cogsci.northwestern.edu/" target="_blank">Cognitive Science Program</a>. There, I created and directed the Child Language Development Laboratory.
+</p>
 
-    <% if prev_page %>
-      | <%= link_to 'go to previous page', prev_page %>
-    <% end %>
-  </p>
-<% end %>
+<p>I received my PhD in 2014 from the <a href="http://ling.umd.edu/">Department of Linguistics</a> at the <a href="https://umd.edu/" target="_blank">University of Maryland</a>, under the direction of my advisor <a href="ling.umd.edu/~hacquard" target="_blank">Valentine Hacquard</a>. My unofficial advisors were <a href="http://terpconnect.umd.edu/~pietro/" target="_blank">Paul Pietroski</a>, <a href="ling.umd.edu/~alxndrw/" target="_blank">Alexander Williams</a>, <a href="http://ling.umd.edu/~jlidz/" target="_blank">Jeffrey Lidz</a>, and <a href="https://www.colinphillips.net/" target="_blank">Colin Phillips</a>. At UMD, my research in semantics, language acquisition, and psycholinguistics was supported by the <a href="http://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" target="_blank">Social Sciences and Humanities Council of Canada</a>, as well as the (then nascent) <a href="https://languagescience.umd.edu/" target="_blank">Maryland Language Science Center</a>. 
+</p>
 
-<% page_articles.each_with_index do |article, i| %>
-  <h3 class="lowercase"><%= link_to article.title, article %> <span class="date"><%= article.date.strftime("%m.%e.%Y") %></span></h3>
-  <!-- use article.summary(250) if you have Nokogiri available to show just the first 250 characters -->
-  <%= article.body %>    
-<% end %>
+<p>You can learn more about my professional history from my <a href="downloadables/wellwood_cv.html" target="_blank">curriculum vitae</a>. 
+</p>
+
+<div class="meta">
+    <%= image_tag "me_L.png", :width => "10%", :alt => "alexis singing" %><%= image_tag "me_rainbow2.png", :width => "10%", :alt => "alexis by a fountain" %><%= image_tag "me_grad.jpg", :width => "10%", :alt => "alexis just dissertated" %>
+</div>
+
+<!--<h3 class="lowercase">blog</h3>
+
+I like to try to and make questions in linguistic semantics accessible. When I can, I'll post something new <a href="/blog.html">here</a>.  -->
+
+<h3 class="lowercase">research</h3>
+
+<p>I'm a semanticist, which means I study how meaning is expressed in natural language. Presently, my primary research interest is in the relationship between semantic theory and cognitive psychology. In particular, I want to know how we can relate our formal theories, as developed primarily by linguists and philosophers of language, to theories of perception and conception. This amounts to thinking about the interface between language and mind on the "meaning side". I explore these questions primarily through the study of comparative and superlative sentences. This involves thinking about the logic, comprehension, production, processing, cross-linguistic realization, and acquisition of words like <i>more</i> and <i>most</i>. You can read most of my papers <a href="research.html">here</a>. 
+</p>
+
+<p>I have led or been involved in collaborative research projects with linguists, philosophers, psychologists, and computer scientists. Some of these researchers were undergraduate students, graduate students, and post-doctoral scholars, usually under my direction. I have helped build research infrastructure and public outreach projects with researchers across the communication sciences. I try to make semantics research accessible to a broader audience through <a href="blog.html">my blog</a>. 
+</p>
 
 
+<h3 class="lowercase">teaching</h3>
+
+<p>I have designed and taught a number of courses from an advanced undergraduate seminar when I was a graduate student at UMD, to undergraduate and graduate courses at NU and USC. These span the range of beginner to advanced courses in formal semantics, and topical courses at the graduate and undergraduate levels in semantics, language acquisition, and philosophy of language. You can find out more about my courses <a href="teaching.html">here</a>.</p>
+
+<p>Since coming to USC, I have co-taught with <a href="https://www-bcf.usc.edu/~pancheva/" target="_blank">Roumyana Pancheva</a> (<a href="http://esslli2018.folli.info/non-canonical-comparatives-syntax-semantics-and-psycholinguistics/" target="_blank">ESSLLI</a>, Summer 2018) and <a href="http://www-bcf.usc.edu/~schein/" target="_blank">Barry Schein</a> (<a href="classes/phil599.html">Ontology &amp; Logical Form</a>, Fall 2018). While at NU, I co-taught a course with <a href="http://cariani.org/" target="_blank">Fabrizio Cariani</a> and <a href="http://paolosantorio.net/" target="_blank">Paolo Santorio</a> (<a href="http://nasslli2016.rutgers.edu/course_CarianiSantorioWellwood.html" target="_blank">NASSLLI</a>, summer 2016). </p>
 
 
+<!-- <h3 class="lowercase">contact</h3>
+I'm available on the internet. -->
 
-<!-- <h2 class="lowercase">Tags</h2>
-      <ol>
-        <% blog.tags.each do |tag, articles| %>
-          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-        <% end %>
-      </ol> -->
 
-<% if paginate && num_pages > 1 %>
-  <p>
-    page <%= page_number %> of <%= num_pages %>
+<!-- <h3 class="lowercase">service</h3>
+[coming soon!] -->
 
-    <% if next_page %>
-      | <%= link_to 'go to next page', next_page %>
-    <% end %>
+</div>
 
-    <% if prev_page %>
-      | <%= link_to 'go to previous page', prev_page %>
-    <% end %>
-  </p>
-<% end %>

@@ -3,7 +3,7 @@ title: "Back to basics: <i>more</i> is always <i>much-er</i>"
 date: 2012-09-01
 authors: Alexis Wellwood
 venue: <i>Proceedings of Sinn und Bedeutung 17</i>
-local: /downloadables/w2012sub.pdf
+local: downloadables/w2012sub.pdf
 official: http://semanticsarchive.net/sub2012/Wellwood.pdf
 tags: semantics, comparatives, events, adjectives
 ---

@@ -3,7 +3,7 @@ title: Interrogative structures in Marshallese
 authors: Michaël Gagnon and Alexis Wellwood
 date: 2008-06-01
 venue: <i>Proceedings of the Canadian Linguistics Association annual meeting</i>
-local: /downloadables/gw2008.pdf
+local: downloadables/gw2008.pdf
 tags: syntax, questions, cross-linguistic
 ---
 

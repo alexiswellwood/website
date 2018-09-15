@@ -3,7 +3,7 @@ title: "Choosing quantity over quality: syntax guides interpretive preferences f
 authors: Alexis Wellwood, Darko Odic, Justin Halberda, and Jeffrey Lidz
 date: 2012-08-01
 venue: <i>Proceedings of the Cognitive Science Society annual meeting</i>
-local: /downloadables/wohl2012css.pdf
+local: downloadables/wohl2012css.pdf
 tags: acquisition, superlatives, syntactic-bootstrapping
 ---
 

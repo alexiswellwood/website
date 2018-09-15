@@ -3,7 +3,7 @@ title: "On how verification tasks are related to verification procedures: A repl
 date: 2017-05-29
 authors: Tim Hunter, Jeffrey Lidz, Darko Odic, and Alexis Wellwood
 venue: <i>Natural Language Semantics, 25(2)</i>
-local: /downloadables/hlow2016preprint.pdf
+local: downloadables/hlow2016preprint.pdf
 official: https://link.springer.com/article/10.1007/s11050-016-9130-7
 tags: semantics, psycholinguistics, superlatives, number
 ---

@@ -3,7 +3,7 @@ title: "States and events for S-level gradable adjectives"
 date: 2016-09-09
 authors: Alexis Wellwood
 venue: <i>Semantics and Linguistic Theory (SALT) 26</i> 
-local: /downloadables/w2016salt26-official.pdf
+local: downloadables/w2016salt26-official.pdf
 official: "https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/26.166"
 tags: semantics, comparatives, adjectives, events, states
 ---

@@ -3,7 +3,7 @@ title: The anatomy of a comparative illusion
 date: 2018-07-10
 authors: Alexis Wellwood, Roumyana Pancheva, Valentine Hacquard, and Colin Phillips
 venue: <i>Journal of Semantics, 35(3)</i> 
-local: /downloadables/wphp2018revision-june.pdf
+local: downloadables/wphp2018revision-june.pdf
 official: "https://academic.oup.com/jos/advance-article-abstract/doi/10.1093/jos/ffy014/5065172"
 tags: psycholinguistics, semantics, comparatives, events
 ---

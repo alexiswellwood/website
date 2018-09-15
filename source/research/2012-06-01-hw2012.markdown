@@ -3,7 +3,7 @@ title: "Embedding epistemic modals in English: A corpus-based study"
 authors: Valentine Hacquard and Alexis Wellwood
 date: 2012-06-01
 venue: <i>Semantics and Pragmatics, 5(4)</i>
-local: /downloadables/hw2012s&p-preproof.pdf
+local: downloadables/hw2012s&p-preproof.pdf
 official: http://dx.doi.org/10.3765/sp.5.4
 pages: 1-29
 tags: semantics, modality, questions, corpus

@@ -3,7 +3,7 @@ title: Talking about Causing Events
 date: 2013-03-13 
 authors: Christopher Vogel, Alexis Wellwood, Rachel Dudley, and J. Brendan Ritchie
 venue: "<i>The Baltic International Yearbook of Cognition, Logic and Communication</i>: Vol. 9"
-local: /downloadables/vwdr-toappear-baltic.pdf
+local: downloadables/vwdr-toappear-baltic.pdf
 official: http://dx.doi.org/10.4148/1944-3676.1092
 tags: semantics, psycholinguistics, events, causativity
 ---

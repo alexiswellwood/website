@@ -3,7 +3,7 @@ title: "Distributivity and modality: where <i>each</i> may go, <i>every</i> can'
 authors: Michaël Gagnon and Alexis Wellwood
 date: 2011-06-01
 venue: <i>Proceedings of Semantics and Linguistic Theory 21</i>
-local: /downloadables/gw2011salt.pdf
+local: downloadables/gw2011salt.pdf
 official: http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2592
 pages: 39-55
 tags: semantics, syntax, modality, quantifiers

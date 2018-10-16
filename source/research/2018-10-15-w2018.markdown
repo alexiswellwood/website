@@ -1,0 +1,13 @@
+---
+title: Structure preservation in comparatives
+date: 2018-10-15
+authors: Alexis Wellwood
+venue: <i>Semantics and Linguistic Theory, 28</i> 
+official: "https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/28.78/4037"
+tags: semantics, comparatives, events
+---
+
+Comparatives can invoke various dimensions for comparison, but not anything
+goes: <i>more coffee</i> invokes volume or weight, but not temperature, while <i>more
+coffees</i> invokes number, but not volume or weight. In general, the extant literature
+assumes that the difference between <i>more coffee</i>/<i>coffees</i> reflects a morphosyntactic ambiguity of <i>more</i>, such that it spells out MUCH-ER with bare nouns, and MANY-ER with plural nouns. Semantically, MUCH introduces a variable over measure functions, with constraints, whereas MANY introduces a cardinality function. I argue for an alternative, univocal theory based on the decomposition MUCH-ER, and account for the observed patterns of constrained variability by means of a stronger condition on the selection of measure functions than has previously been proposed.

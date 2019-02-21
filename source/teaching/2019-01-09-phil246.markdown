@@ -1,0 +1,11 @@
+---
+title: "Philosophy 246: Foundations of Cognitive Science"
+date: 2019-01-09
+term: Spring semester
+institution: University of Southern California
+author: Alexis Wellwood 
+classpage: /classes/phil246.html
+blog: teaching
+---
+
+This course is an introduction to thes foundational questions animating the interdisciplinary field of cognitive science. For example: How much of what we know is learned (i.e., based on experience) rather than innate? How much of what we we're able to do, cognitively, is the result of just plain smarts, as opposed to specific cognitive faculties 'designed' to carry out certain tasks? How is what we know represented or recorded in the mind, and how do we come to speak what we believe to be true? How different are our minds from those of other animals? Is it possible to build an artificial mind? We explore how questions like these are posed and addressed in philosophy, cognitive psychology, linguistics, neuroscience, and computer science, and how contemporary experimental research aims to shed light on their answers. Students should emerge from the course with a deeper appreciation of the richness (and sometimes strangeness) of how minds work, and more advanced skills in reading and synthesizing information from a variety of different fields. 
